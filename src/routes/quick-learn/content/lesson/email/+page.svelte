@@ -60,7 +60,7 @@
 				class="max-w-5xl object-cover shadow shadow-md" />
 		</article>
 
-		<div class="flex items-center p-16 mb-16 w-full max-w-5xl justify-center mx-auto">
+		<div class="flex items-center p-16 w-full max-w-5xl justify-center mx-auto">
 			<input
 				id="default-checkbox"
 				type="checkbox"
@@ -70,6 +70,14 @@
 				for="default-checkbox"
 				class="ms-4 text-2xl ml-4 font-semibold text-gray-900 dark:text-gray-300"
 				>Mark as Read</label>
+		</div>
+
+		<div class="flex items-center mb-16 w-full max-w-5xl justify-center mx-auto">
+			<a
+				href="#"
+				class="inline-flex justify-center items-center p-2 text-xs hover:underline font-medium rounded-lg text-gray-700 sm:text-sm hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700">
+				Flag lesson for editing
+			</a>
 		</div>
 	</div>
 </main>

@@ -85,9 +85,12 @@
 		{ title: 'Approval Lesson', link: '/quick-learn/content/lesson/approve' }
 	];
 
+	let flagged = [{ title: 'Flagged Lessons', link: '/quick-learn/flagged' }];
+
 	let workflows3 = [
 		{ title: 'Community', screens: community },
-		{ title: 'Approval', screens: approval }
+		{ title: 'Approval', screens: approval },
+		{ title: 'Flagged', screens: flagged }
 	];
 </script>
 
