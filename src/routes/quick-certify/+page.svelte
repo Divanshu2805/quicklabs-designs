@@ -14,7 +14,7 @@
 		},
 		{
 			title: 'Signup',
-			link: '/signup'
+			link: '/quick-certify/signup'
 		}
 	];
 
