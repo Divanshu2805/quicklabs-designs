@@ -19,6 +19,14 @@
 	];
 
 	let workflows = [{ title: 'Onboarding', screens: onboarding }];
+
+	let profileSettings = [
+		{ title: 'General', link: '/quick-certify/settings/profile/general' },
+		{ title: 'Change Password', link: '/quick-certify/settings/profile/password' },
+		{ title: 'Preferences', link: '/quick-certify/settings/profile/preferences' }
+	];
+
+	let settingWorkflows = [{ title: 'Personal Settings', screens: profileSettings }];
 </script>
 
 <!-- 3 column wrapper -->
@@ -31,6 +39,31 @@
 				<!-- Start left column area -->
 				<div class="relative">
 					{#each workflows as workflow}
+						<div
+							class="sticky top-0 z-10 border-t border-b border-gray-200 bg-gray-200 px-6 py-1 text-sm font-medium text-gray-500">
+							<h3>{workflow.title}</h3>
+						</div>
+						<ul role="list" class="relative z-0 divide-y divide-gray-200">
+							{#each workflow.screens as screen}
+								<li class="bg-white">
+									<div
+										class="relative flex items-center space-x-3 px-6 py-2 focus-within:ring-2 focus-within:ring-inset
+                        focus-within:ring-indigo-500 hover:bg-gray-50">
+										<div class="min-w-0 flex-1">
+											<a href={screen.link} target="_blank" class="focus:outline-none">
+												<p class="text-sm font-medium text-gray-900">{screen.title}</p>
+											</a>
+										</div>
+									</div>
+								</li>
+							{/each}
+						</ul>
+					{/each}
+				</div>
+				<!-- End left column area -->
+				<!-- Start left column area -->
+				<div class="relative">
+					{#each settingWorkflows as workflow}
 						<div
 							class="sticky top-0 z-10 border-t border-b border-gray-200 bg-gray-200 px-6 py-1 text-sm font-medium text-gray-500">
 							<h3>{workflow.title}</h3>
