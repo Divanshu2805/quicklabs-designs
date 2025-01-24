@@ -22,7 +22,7 @@
 				<form class="space-y-4" action="#">
 					<div>
 						<label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Your name</label>
+							>Full Name</label>
 						<input
 							type="text"
 							name="name"
