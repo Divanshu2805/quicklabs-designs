@@ -182,7 +182,15 @@
 										role="menuitem"
 										tabindex="-1"
 										id="menu-item-0"
-										>My Profile
+										>Profile Settings
+									</a>
+									<a
+										href="/quick-certify/settings/account/general-information"
+										class="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-50"
+										role="menuitem"
+										tabindex="-1"
+										id="menu-item-0"
+										>Account Settings
 									</a>
 								</div>
 								<div class="py-1" role="none">

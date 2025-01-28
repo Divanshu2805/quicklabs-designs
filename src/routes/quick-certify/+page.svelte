@@ -25,8 +25,18 @@
 		{ title: 'Change Password', link: '/quick-certify/settings/profile/password' },
 		{ title: 'Preferences', link: '/quick-certify/settings/profile/preferences' }
 	];
+	let accountSettings = [
+		{ title: 'General Information', link: '/quick-certify/settings/account/general-information' },
+		{ title: 'Social Links', link: '/quick-certify/settings/account/social-links' },
+		{ title: 'Branding', link: '/quick-certify/settings/account/branding' },
+		{ title: 'Issuer Portal', link: '/quick-certify/settings/account/issuer-portal' },
+		{ title: 'Billing Information', link: '/quick-certify/settings/account/billing-information' }
+	];
 
-	let settingWorkflows = [{ title: 'Personal Settings', screens: profileSettings }];
+	let settingWorkflows = [
+		{ title: 'Personal Settings', screens: profileSettings },
+		{ title: 'Account Settings', screens: accountSettings }
+	];
 </script>
 
 <!-- 3 column wrapper -->
