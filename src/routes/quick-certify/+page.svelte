@@ -32,10 +32,16 @@
 		{ title: 'Issuer Portal', link: '/quick-certify/settings/account/issuer-portal' },
 		{ title: 'Billing Information', link: '/quick-certify/settings/account/billing-information' }
 	];
+	let teamSettings = [
+		{ title: 'Team', link: '/quick-certify/settings/account/team' },
+		{ title: 'Add Member', link: '/quick-certify/settings/account/team/add' },
+		{ title: 'Edit Member', link: '/quick-certify/settings/account/team/edit' }
+	];
 
 	let settingWorkflows = [
 		{ title: 'Personal Settings', screens: profileSettings },
-		{ title: 'Account Settings', screens: accountSettings }
+		{ title: 'Account Settings', screens: accountSettings },
+		{ title: 'Team', screens: teamSettings }
 	];
 </script>
 
