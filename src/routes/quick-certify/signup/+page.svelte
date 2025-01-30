@@ -4,8 +4,8 @@
 	const logo = 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg';
 </script>
 
-<section class="bg-gray-50 dark:bg-gray-900">
-	<div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+<section class="bg-gray-50 dark:bg-gray-900 p-8">
+	<div class="flex flex-col items-center justify-center px-6 py-8 mx-auto lg:py-0">
 		<a
 			href="/quick-certify"
 			class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
@@ -22,15 +22,27 @@
 				<form class="space-y-4" action="#">
 					<div>
 						<label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Full Name</label>
+							>First Name</label>
 						<input
 							type="text"
 							name="name"
 							id="name"
 							class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-							placeholder="John Doe"
+							placeholder="John"
 							required="" />
 					</div>
+					<div>
+						<label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+							>Last Name</label>
+						<input
+							type="text"
+							name="name"
+							id="name"
+							class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+							placeholder="Doe"
+							required="" />
+					</div>
+
 					<div>
 						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
 							>Your email</label>
