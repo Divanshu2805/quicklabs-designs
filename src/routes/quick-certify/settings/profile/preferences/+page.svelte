@@ -70,9 +70,7 @@
 		<main class="max-w-xl pb-12 px-4 lg:col-span-6">
 			<div>
 				<h1 class="text-lg font-semibold dark:text-white">Preferences</h1>
-				<p class="text-gray-500 dark:text-gray-400 text-sm">
-					Please change your personal preferences.
-				</p>
+				<p class="text-gray-500 dark:text-gray-400 text-sm">Change your personal preferences</p>
 
 				<div class="flex mt-6">
 					<div class="flex items-center h-5">

@@ -9,11 +9,15 @@
 			<div>
 				<h1 class="text-lg font-semibold dark:text-white">Add New Team Member</h1>
 				<p class="text-gray-500 dark:text-gray-400 text-sm">
-					Please fill in details of new team member.
+					Please fill in details of new team member to send them an invitation to join your team.
 				</p>
 			</div>
 
-			<form id="new_user" action="/members" accept-charset="UTF-8" method="post">
+			<form
+				id="new_user"
+				action="/quick-certify/settings/account/team"
+				accept-charset="UTF-8"
+				method="GET">
 				<div class="mt-4 grid gap-4 sm:grid-cols-2 sm:gap-4">
 					<div>
 						<div>
@@ -23,7 +27,6 @@
 							<div class="mt-1">
 								<input
 									class="appearance-none block bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-									required="required"
 									type="text"
 									name="user[first_name]"
 									id="user_first_name" />
@@ -38,7 +41,6 @@
 							<div class="mt-1">
 								<input
 									class="appearance-none block bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-									required="required"
 									type="text"
 									name="user[last_name]"
 									id="user_last_name" />
@@ -53,7 +55,6 @@
 							<div class="mt-1">
 								<input
 									class="appearance-none block bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-									required="required"
 									type="text"
 									name="user[email]"
 									id="user_email" />
@@ -89,7 +90,7 @@
 								class="inline-block absolute invisible z-10 py-1 px-2 max-w-sm text-xs font-normal text-white bg-gray-900 rounded-sm shadow-sm opacity-0 tooltip dark:bg-gray-700"
 								data-popper-placement="top"
 								style="position: absolute; inset: auto auto 0px 0px; margin: 0px; transform: translate3d(606px, -345.5px, 0px);">
-								A team member can be either Super Admin, Admin, Editor or Member.
+								A team member can be either Admin, Admin, Manager or Designer.
 								<div
 									class="tooltip-arrow"
 									data-popper-arrow=""

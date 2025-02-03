@@ -22,7 +22,7 @@
 					<label for="dropzone-file" class="block text-sm font-medium text-gray-900 dark:text-white"
 						>Banner Image</label>
 					<label for="product-options" class="text-xs text-gray-500 dark:text-gray-300"
-						>Banner image is shown on issuer portal if they are enabled</label>
+						>Banner image is shown on issuer portal if it is enabled</label>
 				</div>
 				<div class="flex justify-center items-center w-full">
 					<label

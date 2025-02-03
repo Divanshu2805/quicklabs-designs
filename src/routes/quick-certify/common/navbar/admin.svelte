@@ -24,30 +24,30 @@
 						<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 						<a
 							href="/quick-certify/team"
-							class="rounded-md px-3 py-2 text-sm font-medium text-white bg-gray-500">Dashboard</a>
+							class="rounded-sm px-3 py-2 text-sm font-medium text-white bg-gray-500">Dashboard</a>
 						<a
 							href="/quick-certify/member/my-learning-paths"
-							class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+							class="rounded-sm px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
 							>Events</a>
 						<a
 							href="/quick-certify/content"
-							class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+							class="rounded-sm px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
 							>Credentials</a>
 						<a
 							href="/quick-certify/approvals"
-							class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+							class="rounded-sm px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
 							>Designs</a>
 						<a
 							href="/quick-certify/approvals"
-							class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+							class="rounded-sm px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
 							>Emails</a>
 						<a
 							href="/quick-certify/approvals"
-							class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+							class="rounded-sm px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
 							>Analytics</a>
 						<a
 							href="/quick-certify/approvals"
-							class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+							class="rounded-sm px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
 							>Integrations</a>
 					</div>
 				</div>
@@ -71,7 +71,7 @@
 						<input
 							id="search"
 							name="search"
-							class="block w-full rounded-md border border-transparent bg-gray-700 py-1.5 pl-10 pr-3 leading-5 text-gray-300 placeholder-gray-400 focus:border-white focus:bg-white focus:text-gray-900 focus:outline-none focus:ring-white sm:text-sm"
+							class="block w-full rounded-sm border border-transparent bg-gray-700 py-1.5 pl-10 pr-3 leading-5 text-gray-300 placeholder-gray-400 focus:border-white focus:bg-white focus:text-gray-900 focus:outline-none focus:ring-white sm:text-sm"
 							placeholder="Search Events or Participants"
 							type="search" />
 					</div>
@@ -81,7 +81,7 @@
 				<!-- Mobile menu button -->
 				<button
 					type="button"
-					class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+					class="inline-flex items-center justify-center rounded-sm p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
 					aria-controls="mobile-menu"
 					aria-expanded="false">
 					<span class="sr-only">Open main menu</span>
@@ -166,7 +166,7 @@
               -->
 						{#if menu.opened}
 							<div
-								class="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+								class="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-sm bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
 								role="menu"
 								aria-orientation="vertical"
 								aria-labelledby="menu-button"

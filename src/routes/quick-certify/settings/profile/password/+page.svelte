@@ -70,7 +70,9 @@
 		<main class="max-w-xl pb-12 px-4 lg:col-span-6">
 			<div>
 				<h1 class="text-lg font-semibold dark:text-white">Change Password</h1>
-				<p class="text-gray-500 dark:text-gray-400 text-sm">Please change your password.</p>
+				<p class="text-gray-500 dark:text-gray-400 text-sm">
+					Setup a new password for your account
+				</p>
 
 				<form class="w-full mt-6">
 					<div class="mb-5 mt-6">

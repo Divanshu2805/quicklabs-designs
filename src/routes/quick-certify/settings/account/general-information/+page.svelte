@@ -11,7 +11,7 @@
 
 		<main class="max-w-xl pb-12 px-4 lg:col-span-6">
 			<div
-				class="flex items-center p-2.5 mb-4 text-sm text-green-800 border border-green-300 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400 dark:border-green-800"
+				class="flex items-center p-2.5 mb-4 text-sm text-green-800 border border-green-300 rounded-sm bg-green-50 dark:bg-gray-800 dark:text-green-400 dark:border-green-800"
 				role="alert">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +32,7 @@
 			</div>
 
 			<div
-				class="flex items-center p-2.5 mb-4 text-sm text-yellow-800 border border-yellow-300 rounded-lg bg-yellow-50 dark:bg-gray-800 dark:text-yellow-300 dark:border-yellow-800"
+				class="flex items-center p-2.5 mb-4 text-sm text-yellow-800 border border-yellow-300 rounded-sm bg-yellow-50 dark:bg-gray-800 dark:text-yellow-300 dark:border-yellow-800"
 				role="alert">
 				<svg
 					class="lucide lucide-triangle-alert shrink-0 inline w-4 h-4 me-2"
@@ -99,7 +99,7 @@
 						<input
 							id="name"
 							class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-							placeholder="Issuer Slogan"
+							placeholder="Issuer slogan or tagline"
 							required />
 					</div>
 					<button
