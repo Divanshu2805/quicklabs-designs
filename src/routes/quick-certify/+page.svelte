@@ -18,8 +18,6 @@
 		}
 	];
 
-	let workflows = [{ title: 'Onboarding', screens: onboarding }];
-
 	let profileSettings = [
 		{ title: 'General', link: '/quick-certify/settings/profile/general' },
 		{ title: 'Change Password', link: '/quick-certify/settings/profile/password' },
@@ -38,11 +36,31 @@
 		{ title: 'Edit Member', link: '/quick-certify/settings/account/team/edit' }
 	];
 
+	let eventSettings = [
+		{ title: 'Event Types', link: '/quick-certify/settings/event/type' },
+		{ title: 'Event Levels', link: '/quick-certify/settings/event/level' },
+		{ title: 'Event Formats', link: '/quick-certify/settings/event/format' }
+	];
+
 	let settingWorkflows = [
+		{ title: 'Onboarding', screens: onboarding },
 		{ title: 'Personal Settings', screens: profileSettings },
 		{ title: 'Account Settings', screens: accountSettings },
+		{ title: 'Event Settings', screens: eventSettings },
 		{ title: 'Team', screens: teamSettings }
 	];
+
+	let publicPages = [
+		{ title: 'Certificate', link: '/quick-certify/public/credential' },
+		{ title: 'Event', link: '/quick-certify/public/event' },
+		{ title: 'Event Participants', link: '/quick-certify/settings/event/format' },
+		{ title: 'Issuer Profile', link: '/quick-certify/settings/event/format' },
+		{ title: 'Issuer Recipients', link: '/quick-certify/settings/event/format' },
+		{ title: 'Issuer Events', link: '/quick-certify/settings/event/format' },
+		{ title: 'Participant', link: '/quick-certify/public/person' }
+	];
+
+	let publicWorkflows = [{ title: 'Public', screens: publicPages }];
 </script>
 
 <!-- 3 column wrapper -->
@@ -54,7 +72,7 @@
 			<div class="h-full sm:pl-6 lg:pl-8 xl:pl-0">
 				<!-- Start left column area -->
 				<div class="relative">
-					{#each workflows as workflow}
+					{#each settingWorkflows as workflow}
 						<div
 							class="sticky top-0 z-10 border-t border-b border-gray-200 bg-gray-200 px-6 py-1 text-sm font-medium text-gray-500">
 							<h3>{workflow.title}</h3>
@@ -77,9 +95,14 @@
 					{/each}
 				</div>
 				<!-- End left column area -->
+			</div>
+		</div>
+		<div
+			class="border-b border-gray-200 bg-white xl:w-64 xl:flex-shrink-0 xl:border-b-0 xl:border-r xl:border-gray-200">
+			<div class="h-full sm:pl-6 lg:pl-8 xl:pl-0">
 				<!-- Start left column area -->
 				<div class="relative">
-					{#each settingWorkflows as workflow}
+					{#each publicWorkflows as workflow}
 						<div
 							class="sticky top-0 z-10 border-t border-b border-gray-200 bg-gray-200 px-6 py-1 text-sm font-medium text-gray-500">
 							<h3>{workflow.title}</h3>
@@ -89,7 +112,7 @@
 								<li class="bg-white">
 									<div
 										class="relative flex items-center space-x-3 px-6 py-2 focus-within:ring-2 focus-within:ring-inset
-                        focus-within:ring-indigo-500 hover:bg-gray-50">
+					focus-within:ring-indigo-500 hover:bg-gray-50">
 										<div class="min-w-0 flex-1">
 											<a href={screen.link} target="_blank" class="focus:outline-none">
 												<p class="text-sm font-medium text-gray-900">{screen.title}</p>

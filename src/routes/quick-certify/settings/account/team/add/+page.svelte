@@ -28,6 +28,7 @@
 								<input
 									class="appearance-none block bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
 									type="text"
+									placeholder="John"
 									name="user[first_name]"
 									id="user_first_name" />
 							</div>
@@ -42,6 +43,7 @@
 								<input
 									class="appearance-none block bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
 									type="text"
+									placeholder="Doe"
 									name="user[last_name]"
 									id="user_last_name" />
 							</div>
@@ -56,6 +58,7 @@
 								<input
 									class="appearance-none block bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
 									type="text"
+									placeholder="johndoe@gmail.com"
 									name="user[email]"
 									id="user_email" />
 							</div>
@@ -90,7 +93,7 @@
 								class="inline-block absolute invisible z-10 py-1 px-2 max-w-sm text-xs font-normal text-white bg-gray-900 rounded-sm shadow-sm opacity-0 tooltip dark:bg-gray-700"
 								data-popper-placement="top"
 								style="position: absolute; inset: auto auto 0px 0px; margin: 0px; transform: translate3d(606px, -345.5px, 0px);">
-								A team member can be either Admin, Admin, Manager or Designer.
+								A team member can be either Admin, Manager or Designer.
 								<div
 									class="tooltip-arrow"
 									data-popper-arrow=""

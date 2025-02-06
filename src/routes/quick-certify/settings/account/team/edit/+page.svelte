@@ -89,7 +89,7 @@
 								class="inline-block absolute invisible z-10 py-1 px-2 max-w-sm text-xs font-normal text-white bg-gray-900 rounded-sm shadow-sm opacity-0 tooltip dark:bg-gray-700"
 								data-popper-placement="top"
 								style="position: absolute; inset: auto auto 0px 0px; margin: 0px; transform: translate3d(606px, -345.5px, 0px);">
-								A team member can be either Super Admin, Admin, Editor or Member.
+								A team member can be either Admin, Manager or Designer.
 								<div
 									class="tooltip-arrow"
 									data-popper-arrow=""
