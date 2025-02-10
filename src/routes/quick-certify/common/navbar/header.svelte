@@ -2,7 +2,7 @@
 	<nav class="bg-white border-gray-200 px-4 max-w-7xl w-full mx-auto py-4 darkbg-gray-900 order-1">
 		<div class="flex justify-between items-center">
 			<div class="flex justify-start items-center">
-				<a href="https://flowbite.com" class="flex mr-6">
+				<a href="/quick-certify" class="flex mr-6">
 					<img
 						src="https://flowbite.s3.amazonaws.com/logo.svg"
 						class="mr-3 h-8"
@@ -16,19 +16,19 @@
 					class="hidden flex-col mt-0 mr-4 w-full text-md font-medium text-gray-900 md:flex md:flex-row dark:text-white">
 					<li>
 						<a
-							href="#"
+							href="/quick-certify/public/company"
 							class="py-3 px-4 hover:underline dark:hover:text-primary-500"
 							aria-current="page">Issuer Profile</a>
 					</li>
 					<li>
 						<a
-							href="#"
+							href="/quick-certify/public/event"
 							class="py-3 px-4 hover:underline dark:hover:text-primary-500"
-							aria-current="page">Credentials</a>
+							aria-current="page">Events</a>
 					</li>
 					<li>
 						<a
-							href="#"
+							href="/quick-certify/public/recipients"
 							class="py-3 px-4 hover:underline dark:hover:text-primary-500"
 							aria-current="page">Recipients</a>
 					</li>

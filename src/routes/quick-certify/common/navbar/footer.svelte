@@ -19,7 +19,7 @@
 					</h2>
 					<ul class="text-gray-600 dark:text-gray-400 text-sm">
 						<li class="mb-4">
-							<a href="https://flowbite.com" class="hover:underline">Credentails</a>
+							<a href="/quick-certify/public/event" class="hover:underline">Events</a>
 						</li>
 						<li>
 							<a href="https://tailwindcss.com/" class="hover:underline">Recipients</a>

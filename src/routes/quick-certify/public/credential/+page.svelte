@@ -1,6 +1,6 @@
 <script>
-	import Header from '../../common/navbar/header.svelte';
-	import Footer from '../../common/navbar/footer.svelte';
+	import Header from '$quick-certify/common/navbar/header.svelte';
+	import Footer from '$quick-certify/common/navbar/footer.svelte';
 </script>
 
 <Header />

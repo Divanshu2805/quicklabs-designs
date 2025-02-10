@@ -51,13 +51,14 @@
 	];
 
 	let publicPages = [
-		{ title: 'Certificate', link: '/quick-certify/public/credential' },
-		{ title: 'Event', link: '/quick-certify/public/event' },
-		{ title: 'Event Participants', link: '/quick-certify/settings/event/format' },
-		{ title: 'Issuer Profile', link: '/quick-certify/settings/event/format' },
-		{ title: 'Issuer Recipients', link: '/quick-certify/settings/event/format' },
-		{ title: 'Issuer Events', link: '/quick-certify/settings/event/format' },
-		{ title: 'Participant', link: '/quick-certify/public/person' }
+		{ title: 'Certificate Detail', link: '/quick-certify/public/credential' },
+		{ title: 'Event Detail', link: '/quick-certify/public/event/1' },
+		{ title: 'Event Participants List', link: '/quick-certify/public/event/1/participants' },
+		{ title: 'Issuer Profile', link: '/quick-certify/public/company' },
+		{ title: 'Issuer Recipients List', link: '/quick-certify/public/recipients' },
+		{ title: 'Issuer Events List', link: '/quick-certify/public/event' },
+		{ title: 'Issuer Participant Detail', link: '/quick-certify/public/event/1/person' },
+		{ title: 'Person Detail', link: '/quick-certify/public/person' }
 	];
 
 	let publicWorkflows = [{ title: 'Public', screens: publicPages }];
