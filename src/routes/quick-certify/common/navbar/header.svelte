@@ -1,5 +1,5 @@
-<header class="flex flex-col antialiased">
-	<nav class="bg-white border-gray-200 px-4 max-w-7xl w-full mx-auto py-4 darkbg-gray-900 order-1">
+<header class="flex flex-col antialiased border-b border-gray-200">
+	<nav class="bg-white border-gray-200 px-4 max-w-7xl w-full mx-auto py-4 dark:bg-gray-900 order-1">
 		<div class="flex justify-between items-center">
 			<div class="flex justify-start items-center">
 				<a href="/quick-certify" class="flex mr-6">

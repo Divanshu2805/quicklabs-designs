@@ -4,7 +4,7 @@
 </script>
 
 <Header />
-<div class="bg-gray-50 h-screen p-4">
+<div class="bg-gray-50 p-4">
 	<div
 		class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 p-4 rounded-sm border border-stroke-dark bg-white">
 		<div>
@@ -25,7 +25,7 @@
 				</a>
 			</nav>
 			<nav class="hidden sm:flex" aria-label="Breadcrumb">
-				<ol role="list" class="flex items-center space-x-4">
+				<ol role="list" class="flex items-center space-x-2">
 					<li>
 						<div class="flex">
 							<a
@@ -49,7 +49,7 @@
 							</svg>
 							<a
 								href="/quick-certify/public/recipients"
-								class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700 hover:underline"
+								class="ml-2 text-sm font-medium text-gray-500 hover:text-gray-700 hover:underline"
 								>Understanding Clean Coding Practices</a>
 						</div>
 					</li>
@@ -68,7 +68,7 @@
 							</svg>
 							<a
 								href="/quick-certify/public/recipients"
-								class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700 hover:underline"
+								class="ml-2 text-sm font-medium text-gray-500 hover:text-gray-700 hover:underline"
 								>Participants</a>
 						</div>
 					</li>
@@ -78,7 +78,7 @@
 		<div class="mt-2 md:flex md:items-center md:justify-between">
 			<div class="min-w-0 flex-1">
 				<h2 class="text-2xl/7 font-bold text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">
-					Recipients
+					Participants
 				</h2>
 			</div>
 		</div>
@@ -108,8 +108,8 @@
 							<input
 								type="text"
 								id="simple-search"
-								class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-sm bg-gray-50 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-								placeholder="Search event by name"
+								class="block w-full p-1.5 pl-10 text-sm text-gray-900 border border-gray-300 rounded-sm bg-gray-50 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+								placeholder="Search person by name"
 								required="" />
 						</div>
 					</form>
@@ -120,7 +120,7 @@
 						<button
 							id="filterDropdownButton"
 							data-dropdown-toggle="filterDropdown"
-							class="flex items-center justify-center w-full px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-sm md:w-auto focus:outline-none hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+							class="flex items-center justify-center w-full px-4 py-1.5 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-sm md:w-auto focus:outline-none hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
 							type="button">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -149,7 +149,7 @@
 						<!-- Dropdown menu -->
 						<div
 							id="filterDropdown"
-							class="z-10 hidden w-48 p-3 bg-white rounded-sm shadow dark:bg-gray-700">
+							class="z-10 hidden w-48 p-3 bg-white rounded-lg shadow dark:bg-gray-700">
 							<ul class="space-y-2 text-sm cursor-pointer" aria-labelledby="dropdownDefault">
 								<li class="flex items-center hover:underline cursor-pointer">
 									<label
@@ -170,6 +170,349 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="grid grid-cols-1 gap-4 sm:grid-cols-4 mt-8">
+			<div
+				class="relative flex items-center space-x-3 rounded-sm border border-gray-300 bg-white px-4 py-3 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+				<div class="shrink-0">
+					<img
+						class="size-10 rounded-full"
+						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+						alt="" />
+				</div>
+				<div class="min-w-0 flex-1">
+					<a href="/quick-certify/public/event/1/person" class="focus:outline-hidden">
+						<span class="absolute inset-0" aria-hidden="true"></span>
+						<p class="text-sm font-medium text-gray-900">Leslie Alexander</p>
+						<p class="truncate text-sm text-gray-500">Co-Founder / CEO</p>
+					</a>
+				</div>
+			</div>
+
+			<div
+				class="relative flex items-center space-x-3 rounded-sm border border-gray-300 bg-white px-4 py-3 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+				<div class="shrink-0">
+					<img
+						class="size-10 rounded-full"
+						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+						alt="" />
+				</div>
+				<div class="min-w-0 flex-1">
+					<a href="/quick-certify/public/event/1/person" class="focus:outline-hidden">
+						<span class="absolute inset-0" aria-hidden="true"></span>
+						<p class="text-sm font-medium text-gray-900">Leslie Alexander</p>
+						<p class="truncate text-sm text-gray-500">Co-Founder / CEO</p>
+					</a>
+				</div>
+			</div>
+
+			<div
+				class="relative flex items-center space-x-3 rounded-sm border border-gray-300 bg-white px-4 py-3 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+				<div class="shrink-0">
+					<img
+						class="size-10 rounded-full"
+						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+						alt="" />
+				</div>
+				<div class="min-w-0 flex-1">
+					<a href="/quick-certify/public/event/1/person" class="focus:outline-hidden">
+						<span class="absolute inset-0" aria-hidden="true"></span>
+						<p class="text-sm font-medium text-gray-900">Leslie Alexander</p>
+						<p class="truncate text-sm text-gray-500">Co-Founder / CEO</p>
+					</a>
+				</div>
+			</div>
+			<div
+				class="relative flex items-center space-x-3 rounded-sm border border-gray-300 bg-white px-4 py-3 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+				<div class="shrink-0">
+					<img
+						class="size-10 rounded-full"
+						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+						alt="" />
+				</div>
+				<div class="min-w-0 flex-1">
+					<a href="/quick-certify/public/event/1/person" class="focus:outline-hidden">
+						<span class="absolute inset-0" aria-hidden="true"></span>
+						<p class="text-sm font-medium text-gray-900">Leslie Alexander</p>
+						<p class="truncate text-sm text-gray-500">Co-Founder / CEO</p>
+					</a>
+				</div>
+			</div>
+			<div
+				class="relative flex items-center space-x-3 rounded-sm border border-gray-300 bg-white px-4 py-3 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+				<div class="shrink-0">
+					<img
+						class="size-10 rounded-full"
+						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+						alt="" />
+				</div>
+				<div class="min-w-0 flex-1">
+					<a href="/quick-certify/public/event/1/person" class="focus:outline-hidden">
+						<span class="absolute inset-0" aria-hidden="true"></span>
+						<p class="text-sm font-medium text-gray-900">Leslie Alexander</p>
+						<p class="truncate text-sm text-gray-500">Co-Founder / CEO</p>
+					</a>
+				</div>
+			</div>
+			<div
+				class="relative flex items-center space-x-3 rounded-sm border border-gray-300 bg-white px-4 py-3 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+				<div class="shrink-0">
+					<img
+						class="size-10 rounded-full"
+						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+						alt="" />
+				</div>
+				<div class="min-w-0 flex-1">
+					<a href="/quick-certify/public/event/1/person" class="focus:outline-hidden">
+						<span class="absolute inset-0" aria-hidden="true"></span>
+						<p class="text-sm font-medium text-gray-900">Leslie Alexander</p>
+						<p class="truncate text-sm text-gray-500">Co-Founder / CEO</p>
+					</a>
+				</div>
+			</div>
+			<div
+				class="relative flex items-center space-x-3 rounded-sm border border-gray-300 bg-white px-4 py-3 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+				<div class="shrink-0">
+					<img
+						class="size-10 rounded-full"
+						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+						alt="" />
+				</div>
+				<div class="min-w-0 flex-1">
+					<a href="/quick-certify/public/event/1/person" class="focus:outline-hidden">
+						<span class="absolute inset-0" aria-hidden="true"></span>
+						<p class="text-sm font-medium text-gray-900">Leslie Alexander</p>
+						<p class="truncate text-sm text-gray-500">Co-Founder / CEO</p>
+					</a>
+				</div>
+			</div>
+			<div
+				class="relative flex items-center space-x-3 rounded-sm border border-gray-300 bg-white px-4 py-3 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+				<div class="shrink-0">
+					<img
+						class="size-10 rounded-full"
+						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+						alt="" />
+				</div>
+				<div class="min-w-0 flex-1">
+					<a href="/quick-certify/public/event/1/person" class="focus:outline-hidden">
+						<span class="absolute inset-0" aria-hidden="true"></span>
+						<p class="text-sm font-medium text-gray-900">Leslie Alexander</p>
+						<p class="truncate text-sm text-gray-500">Co-Founder / CEO</p>
+					</a>
+				</div>
+			</div>
+			<div
+				class="relative flex items-center space-x-3 rounded-sm border border-gray-300 bg-white px-4 py-3 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+				<div class="shrink-0">
+					<img
+						class="size-10 rounded-full"
+						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+						alt="" />
+				</div>
+				<div class="min-w-0 flex-1">
+					<a href="/quick-certify/public/event/1/person" class="focus:outline-hidden">
+						<span class="absolute inset-0" aria-hidden="true"></span>
+						<p class="text-sm font-medium text-gray-900">Leslie Alexander</p>
+						<p class="truncate text-sm text-gray-500">Co-Founder / CEO</p>
+					</a>
+				</div>
+			</div>
+			<div
+				class="relative flex items-center space-x-3 rounded-sm border border-gray-300 bg-white px-4 py-3 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+				<div class="shrink-0">
+					<img
+						class="size-10 rounded-full"
+						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+						alt="" />
+				</div>
+				<div class="min-w-0 flex-1">
+					<a href="/quick-certify/public/event/1/person" class="focus:outline-hidden">
+						<span class="absolute inset-0" aria-hidden="true"></span>
+						<p class="text-sm font-medium text-gray-900">Leslie Alexander</p>
+						<p class="truncate text-sm text-gray-500">Co-Founder / CEO</p>
+					</a>
+				</div>
+			</div>
+			<div
+				class="relative flex items-center space-x-3 rounded-sm border border-gray-300 bg-white px-4 py-3 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+				<div class="shrink-0">
+					<img
+						class="size-10 rounded-full"
+						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+						alt="" />
+				</div>
+				<div class="min-w-0 flex-1">
+					<a href="/quick-certify/public/event/1/person" class="focus:outline-hidden">
+						<span class="absolute inset-0" aria-hidden="true"></span>
+						<p class="text-sm font-medium text-gray-900">Leslie Alexander</p>
+						<p class="truncate text-sm text-gray-500">Co-Founder / CEO</p>
+					</a>
+				</div>
+			</div>
+
+			<div
+				class="relative flex items-center space-x-3 rounded-sm border border-gray-300 bg-white px-4 py-3 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+				<div class="shrink-0">
+					<img
+						class="size-10 rounded-full"
+						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+						alt="" />
+				</div>
+				<div class="min-w-0 flex-1">
+					<a href="/quick-certify/public/event/1/person" class="focus:outline-hidden">
+						<span class="absolute inset-0" aria-hidden="true"></span>
+						<p class="text-sm font-medium text-gray-900">Leslie Alexander</p>
+						<p class="truncate text-sm text-gray-500">Co-Founder / CEO</p>
+					</a>
+				</div>
+			</div>
+
+			<div
+				class="relative flex items-center space-x-3 rounded-sm border border-gray-300 bg-white px-4 py-3 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+				<div class="shrink-0">
+					<img
+						class="size-10 rounded-full"
+						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+						alt="" />
+				</div>
+				<div class="min-w-0 flex-1">
+					<a href="/quick-certify/public/event/1/person" class="focus:outline-hidden">
+						<span class="absolute inset-0" aria-hidden="true"></span>
+						<p class="text-sm font-medium text-gray-900">Leslie Alexander</p>
+						<p class="truncate text-sm text-gray-500">Co-Founder / CEO</p>
+					</a>
+				</div>
+			</div>
+
+			<div
+				class="relative flex items-center space-x-3 rounded-sm border border-gray-300 bg-white px-4 py-3 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+				<div class="shrink-0">
+					<img
+						class="size-10 rounded-full"
+						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+						alt="" />
+				</div>
+				<div class="min-w-0 flex-1">
+					<a href="/quick-certify/public/event/1/person" class="focus:outline-hidden">
+						<span class="absolute inset-0" aria-hidden="true"></span>
+						<p class="text-sm font-medium text-gray-900">Leslie Alexander</p>
+						<p class="truncate text-sm text-gray-500">Co-Founder / CEO</p>
+					</a>
+				</div>
+			</div>
+
+			<div
+				class="relative flex items-center space-x-3 rounded-sm border border-gray-300 bg-white px-4 py-3 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+				<div class="shrink-0">
+					<img
+						class="size-10 rounded-full"
+						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+						alt="" />
+				</div>
+				<div class="min-w-0 flex-1">
+					<a href="/quick-certify/public/event/1/person" class="focus:outline-hidden">
+						<span class="absolute inset-0" aria-hidden="true"></span>
+						<p class="text-sm font-medium text-gray-900">Leslie Alexander</p>
+						<p class="truncate text-sm text-gray-500">Co-Founder / CEO</p>
+					</a>
+				</div>
+			</div>
+			<!-- More people... -->
+			<div
+				class="relative flex items-center space-x-3 rounded-sm border border-gray-300 bg-white px-4 py-3 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
+				<div class="shrink-0">
+					<img
+						class="size-10 rounded-full"
+						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+						alt="" />
+				</div>
+				<div class="min-w-0 flex-1">
+					<a href="/quick-certify/public/event/1/person" class="focus:outline-hidden">
+						<span class="absolute inset-0" aria-hidden="true"></span>
+						<p class="text-sm font-medium text-gray-900">Leslie Alexander</p>
+						<p class="truncate text-sm text-gray-500">Co-Founder / CEO</p>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="relative overflow-hidden bg-white mt-8">
+			<nav
+				class="flex flex-col items-start justify-end p-4 space-y-3 md:flex-row md:items-center md:space-y-0"
+				aria-label="Table navigation">
+				<span class="text-sm font-normal text-gray-500 dark:text-gray-400"
+					>Showing <span class="font-semibold text-gray-900 dark:text-white">1-10</span> of
+					<span class="font-semibold text-gray-900 dark:text-white me-8">1000</span></span>
+				<ul class="inline-flex items-stretch -space-x-px">
+					<li>
+						<a
+							href="#"
+							class="flex items-center justify-center h-full py-1.5 px-3 ml-0 text-gray-500 bg-white rounded-l-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+							<span class="sr-only">Previous</span>
+							<svg
+								class="w-5 h-5"
+								aria-hidden="true"
+								fill="currentColor"
+								viewBox="0 0 20 20"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									fill-rule="evenodd"
+									d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+									clip-rule="evenodd"></path>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a
+							href="#"
+							class="flex items-center justify-center px-3 py-2 text-sm leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+							>1</a>
+					</li>
+					<li>
+						<a
+							href="#"
+							class="flex items-center justify-center px-3 py-2 text-sm leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+							>2</a>
+					</li>
+					<li>
+						<a
+							href="#"
+							aria-current="page"
+							class="z-10 flex items-center justify-center px-3 py-2 text-sm leading-tight border text-primary-600 bg-primary-50 border-primary-300 hover:bg-primary-100 hover:text-primary-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white"
+							>3</a>
+					</li>
+					<li>
+						<a
+							href="#"
+							class="flex items-center justify-center px-3 py-2 text-sm leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+							>...</a>
+					</li>
+					<li>
+						<a
+							href="#"
+							class="flex items-center justify-center px-3 py-2 text-sm leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+							>100</a>
+					</li>
+					<li>
+						<a
+							href="#"
+							class="flex items-center justify-center h-full py-1.5 px-3 leading-tight text-gray-500 bg-white rounded-r-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+							<span class="sr-only">Next</span>
+							<svg
+								class="w-5 h-5"
+								aria-hidden="true"
+								fill="currentColor"
+								viewBox="0 0 20 20"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									fill-rule="evenodd"
+									d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+									clip-rule="evenodd"></path>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
 	</div>
 </div>
