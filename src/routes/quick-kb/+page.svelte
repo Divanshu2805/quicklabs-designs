@@ -7,9 +7,9 @@
 		{ title: 'Reset Password', link: '/quick-kb/firstrun/reset-password' }
 	];
 	let adminland = [
-		{ title: 'Archived Workspaces', link: '/quick-kb/adminland/signup' },
-		{ title: 'Archived Modules', link: '/quick-kb/adminland/recovery' },
-		{ title: 'Archived Articles', link: '/quick-kb/adminland/login' },
+		{ title: 'Archived Workspaces', link: '/quick-kb/adminland/workspaces' },
+		{ title: 'Archived Modules', link: '/quick-kb/adminland/modules' },
+		{ title: 'Archived Articles', link: '/quick-kb/adminland/articles' },
 		{ title: 'Change Password', link: '/quick-kb/adminland/password' }
 	];
 
