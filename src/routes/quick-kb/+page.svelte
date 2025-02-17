@@ -18,7 +18,8 @@
 	let articles = [
 		{ title: 'Article Detail for public', link: '/quick-kb/articles/1' },
 		{ title: 'Article Detail for Admin', link: '/quick-kb/articles/editor' },
-		{ title: 'Edit Article', link: '/quick-kb/articles/1/edit' }
+		{ title: 'Edit Article', link: '/quick-kb/articles/1/edit' },
+		{ title: 'Add Article', link: '/quick-kb/articles/add' }
 	];
 
 	let workflows = [
