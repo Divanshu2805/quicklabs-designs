@@ -5,7 +5,7 @@
 
 <Header />
 
-<main class="max-w-7xl mx-auto pb-10 lg:py-12 lg:px-8">
+<main class="max-w-7xl mx-auto pb-10 lg:py-8 lg:px-8">
 	<div class="lg:grid lg:grid-cols-12 lg:gap-x-5">
 		<Sidebar />
 
@@ -74,7 +74,7 @@
 														href="/quick-learn/team/1"
 														class="truncate hover:text-gray-600 hover:underline">
 														<div class="flex text-sm font-medium text-gray-600 truncate">
-															<p>Web Development Workspaces</p>
+															<p>How to set up a laravel project on linux machine</p>
 														</div>
 													</a>
 													<div class="flex-1 w-full mt-2">
@@ -272,8 +272,8 @@
 					Are you sure you want to restore this article?
 				</h3>
 				<p class="mb-5 font-xs text-gray-500">
-					Once this article is restored, its content is also restored and users will be able to see
-					it.
+					Once this article is restored, its content will also be restored and users will be able to
+					see it.
 				</p>
 				<button
 					data-modal-hide="popup-modal-activate"

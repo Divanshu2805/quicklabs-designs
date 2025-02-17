@@ -32,7 +32,7 @@
 				<span class="sr-only">Info</span>
 				<div>
 					Your account has been created. Please save recovery code for future reference. These will
-					be needed to recovery your account if you forget your password.
+					be needed to recover your account if you forget your password.
 				</div>
 			</div>
 			<div class="p-6 space-y-4 md:space-y-6 sm:p-8">

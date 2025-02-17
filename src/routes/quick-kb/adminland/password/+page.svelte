@@ -4,7 +4,7 @@
 </script>
 
 <Header />
-<main class="max-w-7xl mx-auto pb-10 lg:py-12 lg:px-8">
+<main class="max-w-7xl mx-auto pb-10 lg:py-8 lg:px-8">
 	<div class="lg:grid lg:grid-cols-12 lg:gap-x-5">
 		<Sidebar />
 
