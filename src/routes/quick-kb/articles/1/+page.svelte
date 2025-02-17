@@ -61,8 +61,10 @@ URL: https://flowbite.com/docs/components/typography/
 								stroke-width="2"
 								d="m1 9 4-4-4-4" />
 						</svg>
-						<span class="ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-gray-400"
-							>Module Name</span>
+						<a
+							href="#"
+							class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white"
+							>Module Name</a>
 					</div>
 				</li>
 			</ol>
@@ -72,19 +74,13 @@ URL: https://flowbite.com/docs/components/typography/
 			class="mx-auto w-full max-w-3xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert text-justify">
 			<header class="mb-4 lg:mb-6 not-format">
 				<h1
-					class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
+					class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-4 lg:text-4xl dark:text-white">
 					Best practices for successful prototypes
 				</h1>
-				<div class="text-base">
-					<address class="inline">
-						By <span rel="author" class="text-gray-900 no-underline dark:text-white"
-							>Jese Leos</span>
-					</address>
-
-					on
-					<time pubdate class="uppercase" datetime="2022-02-08" title="February 8th, 2022"
-						>Feb. 8, 2022</time>
-				</div>
+				<p
+					class="mt-1 ml-1 text-sm text-gray-500 truncate sm:flex sm:items-center sm:justify-center">
+					Aashish Dhawan added this article on June 12, 2024
+				</p>
 			</header>
 			<p class="lead">
 				Flowbite is an open-source library of UI components built with the utility-first classes

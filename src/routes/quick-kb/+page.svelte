@@ -15,7 +15,11 @@
 
 	let workspaces = [];
 	let modules = [];
-	let articles = [];
+	let articles = [
+		{ title: 'Article Detail for public', link: '/quick-kb/articles/1' },
+		{ title: 'Article Detail for Admin', link: '/quick-kb/articles/editor' },
+		{ title: 'Edit Article', link: '/quick-kb/articles/1/edit' }
+	];
 
 	let workflows = [
 		{ title: 'First Run', screens: firstrun },
