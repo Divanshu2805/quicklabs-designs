@@ -41,7 +41,7 @@ URL: https://flowbite.com/docs/components/typography/
 								d="m1 9 4-4-4-4" />
 						</svg>
 						<a
-							href="#"
+							href="/quick-kb/workspaces"
 							class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white"
 							>Workspace Name</a>
 					</div>
@@ -62,7 +62,7 @@ URL: https://flowbite.com/docs/components/typography/
 								d="m1 9 4-4-4-4" />
 						</svg>
 						<a
-							href="#"
+							href="/quick-kb/modules"
 							class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white"
 							>Module Name</a>
 					</div>
@@ -301,3 +301,59 @@ URL: https://flowbite.com/docs/components/typography/
 		</article>
 	</div>
 </main>
+<footer class="bg-white dark:bg-gray-800">
+	<div class="p-4 mx-auto max-w-screen-xl sm:p-8 lg:p-10">
+		<p class="text-xl font-bold leading-tight text-center dark:text-white">
+			Did this article help you in any way?
+		</p>
+		<div class="flex justify-center items-center my-6">
+			<div class="flex items-center">
+				<svg
+					class="w-8 h-8 ms-3 text-yellow-300"
+					aria-hidden="true"
+					xmlns="http://www.w3.org/2000/svg"
+					fill="currentColor"
+					viewBox="0 0 22 20">
+					<path
+						d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+				</svg>
+				<svg
+					class="w-8 h-8 ms-3 text-yellow-300"
+					aria-hidden="true"
+					xmlns="http://www.w3.org/2000/svg"
+					fill="currentColor"
+					viewBox="0 0 22 20">
+					<path
+						d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+				</svg>
+				<svg
+					class="w-8 h-8 ms-3 text-yellow-300"
+					aria-hidden="true"
+					xmlns="http://www.w3.org/2000/svg"
+					fill="currentColor"
+					viewBox="0 0 22 20">
+					<path
+						d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+				</svg>
+				<svg
+					class="w-8 h-8 ms-3 text-yellow-300"
+					aria-hidden="true"
+					xmlns="http://www.w3.org/2000/svg"
+					fill="currentColor"
+					viewBox="0 0 22 20">
+					<path
+						d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+				</svg>
+				<svg
+					class="w-8 h-8 ms-3 text-gray-300 dark:text-gray-500"
+					aria-hidden="true"
+					xmlns="http://www.w3.org/2000/svg"
+					fill="currentColor"
+					viewBox="0 0 22 20">
+					<path
+						d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+				</svg>
+			</div>
+		</div>
+	</div>
+</footer>

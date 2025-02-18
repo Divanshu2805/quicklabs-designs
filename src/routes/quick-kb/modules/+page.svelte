@@ -1,0 +1,129 @@
+<section class="bg-white dark:bg-gray-900">
+	<div class="w-full h-56 bg-blue-100 px-4 mx-auto lg:px-6 shadow-sm"></div>
+	<div class="max-w-3xl px-4 mb-16 mx-auto lg:px-6 sm:py-8 lg:py-8">
+		<nav class="flex" aria-label="Breadcrumb">
+			<ol class="inline-flex justify-self-center space-x-1 md:space-x-2 rtl:space-x-reverse">
+				<li class="inline-flex items-center">
+					<a
+						href="/quick-kb"
+						class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white hover:underline">
+						<svg
+							class="w-3 h-3 me-2.5"
+							aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg"
+							fill="currentColor"
+							viewBox="0 0 20 20">
+							<path
+								d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z" />
+						</svg>
+						Home
+					</a>
+				</li>
+				<li>
+					<div class="flex items-center">
+						<svg
+							class="rtl:rotate-180 w-3 h-3 text-gray-400 mx-1"
+							aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 6 10">
+							<path
+								stroke="currentColor"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="m1 9 4-4-4-4" />
+						</svg>
+						<a
+							href="/quick-kb/workspaces"
+							class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white hover:underline"
+							>Workspace Name</a>
+					</div>
+				</li>
+			</ol>
+		</nav>
+		<div class="text-left mt-4">
+			<h2 class="text-xl font-extrabold text-gray-900 dark:text-white">Modules (6)</h2>
+		</div>
+
+		<div
+			class="max-w-3xl p-5 mx-auto mt-4 space-y-5 border border-gray-100 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700 shadow-sm">
+			<div class="pb-5 border-b border-gray-200 dark:border-gray-700">
+				<a
+					href="/quick-kb/articles"
+					class="text-lg font-semibold text-gray-900 dark:text-white hover:underline">
+					Onboarding and Account Setup
+				</a>
+				<p class="mt-1 text-base font-normal text-gray-500 dark:text-gray-400">
+					This chapter provides an overview of the basic principles of design, such as balance,
+					contrast, and hierarchy. It explains how these principles can be used to create visually
+					pleasing and effective designs.
+				</p>
+			</div>
+
+			<div class="pb-5 border-b border-gray-200 dark:border-gray-700">
+				<a
+					href="/quick-kb/articles"
+					class="text-lg font-semibold text-gray-900 dark:text-white hover:underline">
+					Billing and Subscription Plans
+				</a>
+				<p class="mt-1 text-base font-normal text-gray-500 dark:text-gray-400">
+					This chapter explores the concept of user experience (UX) design and how it relates to the
+					overall design process. It covers topics such as user research, usability testing, and
+					user-centered design.
+				</p>
+			</div>
+
+			<div class="pb-5 border-b border-gray-200 dark:border-gray-700">
+				<a
+					href="/quick-kb/articles"
+					class="text-lg font-semibold text-gray-900 dark:text-white hover:underline">
+					Account and Personal Settings
+				</a>
+				<p class="mt-1 text-base font-normal text-gray-500 dark:text-gray-400">
+					This chapter delves into the art and technique of typography, including the history and
+					evolution of type, the basics of typographic hierarchy, and the use of typography in
+					digital design.
+				</p>
+			</div>
+
+			<div class="pb-5 border-b border-gray-200 dark:border-gray-700">
+				<a
+					href="/quick-kb/articles"
+					class="text-lg font-semibold text-gray-900 dark:text-white hover:underline">
+					Managing Teams and Permissions
+				</a>
+				<p class="mt-1 text-base font-normal text-gray-500 dark:text-gray-400">
+					This chapter covers the basics of color theory and its application in design. It includes
+					information on color wheels, complementary colors, color schemes, and the psychological
+					effects of color. It also covers color management and color spaces in digital design.
+				</p>
+			</div>
+
+			<div class="pb-5 border-b border-gray-200 dark:border-gray-700">
+				<a
+					href="/quick-kb/articles"
+					class="text-lg font-semibold text-gray-900 dark:text-white hover:underline">
+					Managing Archive
+				</a>
+				<p class="mt-1 text-base font-normal text-gray-500 dark:text-gray-400">
+					This chapter will cover the basics of web design, including the principles of responsive
+					design, website layout, and typography, as well as the use of HTML, CSS, and JavaScript.
+				</p>
+			</div>
+
+			<div class="">
+				<a
+					href="/quick-kb/articles"
+					class="text-lg font-semibold text-gray-900 dark:text-white hover:underline">
+					Infrastructure and Security
+				</a>
+				<p class="mt-1 text-base font-normal text-gray-500 dark:text-gray-400">
+					This chapter will explore the process of creating and maintaining a brand, including the
+					development of a brand strategy, the creation of a visual identity, and the use of design
+					elements to communicate a brand's message.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>

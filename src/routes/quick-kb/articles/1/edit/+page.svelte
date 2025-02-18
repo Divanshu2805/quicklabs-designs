@@ -35,7 +35,7 @@
 									d="m1 9 4-4-4-4" />
 							</svg>
 							<a
-								href="/quick-learn/team/1/courses"
+								href="/quick-kb/workspaces"
 								class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white hover:underline"
 								>Workspace Name</a>
 						</div>
@@ -56,7 +56,7 @@
 									d="m1 9 4-4-4-4" />
 							</svg>
 							<a
-								href="/quick-learn/team/1/courses"
+								href="/quick-kb/modules"
 								class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white hover:underline"
 								>Module Name</a>
 						</div>
