@@ -1,7 +1,7 @@
 <script>
     import Fullnavbar from '$lib/quick-test/fullnavbar.svelte';
     import ProjectHeader from '../../../header.svelte';
-    let menu = { opened: false };
+    let menu = $state({ opened: false });
 
 function toggle() {
   menu.opened = !menu.opened;
@@ -47,7 +47,7 @@ function toggle() {
               <div class="relative ml-3 inline-block text-left">
                   <div>
                       <button
-                      on:click={toggle}
+                      onclick={toggle}
                           type="button"
                           class="-my-2 flex items-center rounded-full bg-white p-2 text-gray-400 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-500"
                           id="menu-0-button"
