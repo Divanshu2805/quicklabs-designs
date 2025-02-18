@@ -12,7 +12,7 @@
 					<a
 						href="/quick-release"
 						class="hover:underline font-medium text-gray-900 hover:text-gray-600">Quick Release</a>
-					<p class="text-gray-500" />
+					<p class="text-gray-500"></p>
 				</div>
 			</div>
 		</li>
@@ -27,7 +27,7 @@
 					<a
 						href="/quick-test"
 						class="hover:underline font-medium text-gray-900 hover:text-gray-600">Quick Test</a>
-					<p class="text-gray-500" />
+					<p class="text-gray-500"></p>
 				</div>
 			</div>
 		</li>
@@ -42,7 +42,7 @@
 					<a
 						href="/quick-learn"
 						class="hover:underline font-medium text-gray-900 hover:text-gray-600">Quick Learn</a>
-					<p class="text-gray-500" />
+					<p class="text-gray-500"></p>
 				</div>
 			</div>
 		</li>
@@ -57,7 +57,7 @@
 					<a
 						href="/quick-certify"
 						class="hover:underline font-medium text-gray-900 hover:text-gray-600">Quick Certify</a>
-					<p class="text-gray-500" />
+					<p class="text-gray-500"></p>
 				</div>
 			</div>
 		</li>
@@ -71,7 +71,7 @@
 				<div class="flex-1 truncate px-4 py-2 text-sm">
 					<a href="/quick-kb" class="hover:underline font-medium text-gray-900 hover:text-gray-600"
 						>Quick KB</a>
-					<p class="text-gray-500" />
+					<p class="text-gray-500"></p>
 				</div>
 			</div>
 		</li>
