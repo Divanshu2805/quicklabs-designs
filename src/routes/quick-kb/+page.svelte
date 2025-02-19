@@ -16,14 +16,17 @@
 
 	let workspaces = [
 		{ title: 'Workspaces List for Public', link: '/quick-kb/workspaces' },
-		{ title: 'Archived Workspace', link: '/quick-kb/workspaces/archived' }
+		{ title: 'Archived Workspace', link: '/quick-kb/workspaces/archived' },
+		{ title: 'Workspaces List for Admin', link: '/quick-kb/workspaces/admin' }
 	];
 	let modules = [
 		{ title: 'Modules List for Public', link: '/quick-kb/modules' },
+		{ title: 'Modules List for Admin', link: '/quick-kb/modules/admin' },
 		{ title: 'Archived Module', link: '/quick-kb/modules/archived' }
 	];
 	let articles = [
 		{ title: 'Article List for Public', link: '/quick-kb/articles' },
+		{ title: 'Article List for Admin', link: '/quick-kb/articles/admin' },
 		{ title: 'Article Detail for public', link: '/quick-kb/articles/1' },
 		{ title: 'Article Detail for Admin', link: '/quick-kb/articles/editor' },
 		{ title: 'Edit Article', link: '/quick-kb/articles/1/edit' },
