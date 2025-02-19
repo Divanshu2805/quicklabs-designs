@@ -1,7 +1,7 @@
 <script>
 	import { goto } from '$app/navigation';
 	import Fullnavbar from '$quick-release/shared/fullnavbar.svelte';
-	let menu = { opened: false, filter: false };
+	let menu = $state({ opened: false, filter: false });
 
 	function toggle() {
 		menu.opened = !menu.opened;
@@ -80,7 +80,7 @@
 								<div class="relative ml-3 inline-block text-left">
 									<div>
 										<button
-											on:click={toggle}
+											onclick={toggle}
 											type="button"
 											class="-my-2 flex items-center rounded-full bg-white p-2 text-gray-400 hover:text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-600"
 											id="menu-3-button"
@@ -349,7 +349,7 @@
 							<span class="w-full">Change Logs</span>
 							<div class="relative inline-block text-left">
 								<button
-									on:click={filter}
+									onclick={filter}
 									type="submit"
 									class="inline-flex justify-center rounded-md border border-gray-300 bg-white px-2 py-1 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
 									<svg
@@ -383,7 +383,7 @@
 												id="menu-3-item-1">
 												<span
 													class="inline-block h-2 w-2 mt-1.5 mr-2 flex-shrink-0 rounded-full bg-green-400"
-													aria-hidden="true" />
+													aria-hidden="true"></span>
 
 												<span>Published</span>
 											</a>
@@ -395,7 +395,7 @@
 												id="menu-3-item-2">
 												<span
 													class="inline-block h-2 w-2 mt-1.5 mr-2 flex-shrink-0 rounded-full bg-yellow-400"
-													aria-hidden="true" />
+													aria-hidden="true"></span>
 
 												<span>Drafts</span>
 											</a>
@@ -407,7 +407,7 @@
 												id="menu-3-item-2">
 												<span
 													class="inline-block h-2 w-2 mt-1.5 mr-2 flex-shrink-0 rounded-full bg-red-400"
-													aria-hidden="true" />
+													aria-hidden="true"></span>
 
 												<span>Archived</span>
 											</a>
@@ -419,7 +419,7 @@
 												id="menu-3-item-2">
 												<span
 													class="inline-block h-2 w-2 mt-1.5 mr-2 flex-shrink-0 rounded-full bg-gray-400"
-													aria-hidden="true" />
+													aria-hidden="true"></span>
 
 												<span>Scheduled</span>
 											</a>
@@ -444,7 +444,7 @@
 								<div class="flex justify-between space-x-3">
 									<div class="min-w-0 flex-1">
 										<a href="#" class="block focus:outline-none">
-											<span class="absolute inset-0" aria-hidden="true" />
+											<span class="absolute inset-0" aria-hidden="true"></span>
 											<p class="truncate text-sm font-medium text-gray-900">
 												Added feature Number one
 											</p>
@@ -472,7 +472,7 @@
 								<div class="flex justify-between space-x-3">
 									<div class="min-w-0 flex-1">
 										<a href="#" class="block focus:outline-none">
-											<span class="absolute inset-0" aria-hidden="true" />
+											<span class="absolute inset-0" aria-hidden="true"></span>
 											<p class="truncate text-sm font-medium text-gray-900">This is a Draft</p>
 											<p class="truncate text-sm text-gray-500">
 												Nemo mollitia repudiandae adipisci explicabo optio consequatur tempora ut
@@ -498,7 +498,7 @@
 								<div class="flex justify-between space-x-3">
 									<div class="min-w-0 flex-1">
 										<a href="#" class="block focus:outline-none">
-											<span class="absolute inset-0" aria-hidden="true" />
+											<span class="absolute inset-0" aria-hidden="true"></span>
 											<p class="truncate text-sm font-medium text-gray-900">Kyle Gulgowski</p>
 											<p class="truncate text-sm text-gray-500">
 												Doloremque reprehenderit et harum quas explicabo nulla architecto dicta
@@ -524,7 +524,7 @@
 								<div class="flex justify-between space-x-3">
 									<div class="min-w-0 flex-1">
 										<a href="#" class="block focus:outline-none">
-											<span class="absolute inset-0" aria-hidden="true" />
+											<span class="absolute inset-0" aria-hidden="true"></span>
 											<p class="truncate text-sm font-medium text-gray-900">Hattie Haag</p>
 											<p class="truncate text-sm text-gray-500">Eos sequi et aut ex impedit</p>
 										</a>
@@ -547,7 +547,7 @@
 								<div class="flex justify-between space-x-3">
 									<div class="min-w-0 flex-1">
 										<a href="#" class="block focus:outline-none">
-											<span class="absolute inset-0" aria-hidden="true" />
+											<span class="absolute inset-0" aria-hidden="true"></span>
 											<p class="truncate text-sm font-medium text-gray-900">Wilma Glover</p>
 											<p class="truncate text-sm text-gray-500">Quisquam veniam explicabo</p>
 										</a>
@@ -566,7 +566,7 @@
 								<div class="flex justify-between space-x-3">
 									<div class="min-w-0 flex-1">
 										<a href="#" class="block focus:outline-none">
-											<span class="absolute inset-0" aria-hidden="true" />
+											<span class="absolute inset-0" aria-hidden="true"></span>
 											<p class="truncate text-sm font-medium text-gray-900">Dolores Morissette</p>
 											<p class="truncate text-sm text-gray-500">
 												Est ratione molestiae modi maiores consequatur eligendi et excepturi magni
@@ -587,7 +587,7 @@
 								<div class="flex justify-between space-x-3">
 									<div class="min-w-0 flex-1">
 										<a href="#" class="block focus:outline-none">
-											<span class="absolute inset-0" aria-hidden="true" />
+											<span class="absolute inset-0" aria-hidden="true"></span>
 											<p class="truncate text-sm font-medium text-gray-900">Guadalupe Walsh</p>
 											<p class="truncate text-sm text-gray-500">
 												Commodi deserunt aut veniam rem ipsam
@@ -608,7 +608,7 @@
 								<div class="flex justify-between space-x-3">
 									<div class="min-w-0 flex-1">
 										<a href="#" class="block focus:outline-none">
-											<span class="absolute inset-0" aria-hidden="true" />
+											<span class="absolute inset-0" aria-hidden="true"></span>
 											<p class="truncate text-sm font-medium text-gray-900">Jasmine Hansen</p>
 											<p class="truncate text-sm text-gray-500">Illo illum aut debitis earum</p>
 										</a>
@@ -627,7 +627,7 @@
 								<div class="flex justify-between space-x-3">
 									<div class="min-w-0 flex-1">
 										<a href="#" class="block focus:outline-none">
-											<span class="absolute inset-0" aria-hidden="true" />
+											<span class="absolute inset-0" aria-hidden="true"></span>
 											<p class="truncate text-sm font-medium text-gray-900">Ian Volkman</p>
 											<p class="truncate text-sm text-gray-500">
 												Qui dolore iste ut est cumque sed
@@ -648,7 +648,7 @@
 								<div class="flex justify-between space-x-3">
 									<div class="min-w-0 flex-1">
 										<a href="#" class="block focus:outline-none">
-											<span class="absolute inset-0" aria-hidden="true" />
+											<span class="absolute inset-0" aria-hidden="true"></span>
 											<p class="truncate text-sm font-medium text-gray-900">Rafael Klocko</p>
 											<p class="truncate text-sm text-gray-500">
 												Aut sed aut illum delectus maiores laboriosam ex

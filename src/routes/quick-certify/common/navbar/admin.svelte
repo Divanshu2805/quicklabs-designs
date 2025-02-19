@@ -1,5 +1,5 @@
 <script>
-	let menu = { opened: false };
+	let menu = $state({ opened: false });
 
 	function toggle() {
 		menu.opened = !menu.opened;
@@ -141,7 +141,7 @@
 					<div class="relative ml-4 flex-shrink-0">
 						<div>
 							<button
-								on:click={toggle}
+								onclick={toggle}
 								type="button"
 								class="flex rounded-full bg-gray-800 text-sm text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
 								id="user-menu-button"
