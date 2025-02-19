@@ -10,7 +10,8 @@
 		{ title: 'Archived Workspaces', link: '/quick-kb/adminland/workspaces' },
 		{ title: 'Archived Modules', link: '/quick-kb/adminland/modules' },
 		{ title: 'Archived Articles', link: '/quick-kb/adminland/articles' },
-		{ title: 'Change Password', link: '/quick-kb/adminland/password' }
+		{ title: 'Change Password', link: '/quick-kb/adminland/password' },
+		{ title: 'Account Settings', link: '/quick-kb/adminland/settings' }
 	];
 
 	let workspaces = [{ title: 'Workspaces List for Public', link: '/quick-kb/workspaces' }];
