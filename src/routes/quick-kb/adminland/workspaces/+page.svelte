@@ -71,7 +71,7 @@
 											<div class="flex-1 min-w-0 sm:flex sm:items-center sm:justify-between">
 												<div>
 													<a
-														href="/quick-learn/team/1"
+														href="/quick-kb/workspaces/archived/"
 														class="truncate hover:text-gray-600 hover:underline">
 														<div class="flex text-sm font-medium text-gray-600 truncate">
 															<p>Web Development Workspaces</p>
@@ -117,7 +117,7 @@
 											<div class="flex-1 min-w-0 sm:flex sm:items-center sm:justify-between">
 												<div>
 													<a
-														href="/quick-learn/team/1"
+														href="/quick-kb/workspaces/archived/"
 														class="truncate hover:text-gray-600 hover:underline">
 														<div class="flex text-sm font-medium text-gray-600 truncate">
 															<p>Inbound Sales Process</p>
