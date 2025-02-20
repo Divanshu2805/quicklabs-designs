@@ -1,4 +1,17 @@
 <div class="w-full h-56 bg-blue-100 px-4 mx-auto lg:px-6 shadow-sm">
+	<!-- Top-Right Corner -->
+	<div class="fixed top-4 right-4">
+		<a
+			href="/quick-kb/firstrun/login"
+			type="button"
+			class="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+			id="user-menu-button"
+			aria-expanded="false">
+			<span class="sr-only">Open user menu</span>
+			<!-- svelte-ignore a11y-img-redundant-alt -->
+			<img class="w-8 h-8 rounded-full" src="/2606517_5856.jpg" alt="user photo" />
+		</a>
+	</div>
 	<div class="max-w-3xl px-4 mx-auto lg:px-6 sm:py-8 lg:py-12">
 		<a href="/quick-kb">
 			<h2 class="text-3xl font-extrabold text-gray-900 dark:text-white">Quick KB</h2>
