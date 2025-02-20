@@ -1,7 +1,8 @@
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
 	<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 		<a href="/quick-kb" class="flex items-center space-x-3 rtl:space-x-reverse">
-			<span class="self-center text-2xl font-bold whitespace-nowrap dark:text-white">Quick KB</span>
+			<span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+				>Quick KB</span>
 		</a>
 		<div class="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
 			<button

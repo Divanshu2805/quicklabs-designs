@@ -1,5 +1,9 @@
+<script>
+	import Banner from '$quick-kb/common/banner.svelte';
+</script>
+
 <section class="bg-white dark:bg-gray-900">
-	<div class="w-full h-56 bg-blue-100 px-4 mx-auto lg:px-6 shadow-sm"></div>
+	<Banner />
 	<div class="max-w-3xl px-4 mb-16 mx-auto lg:px-6 sm:py-8 lg:py-8">
 		<div
 			id="alert-additional-content-2"
