@@ -114,6 +114,73 @@
 					contrast, and hierarchy. It explains how these principles can be used to create visually
 					pleasing and effective designs.
 				</p>
+				<div class="sm:flex sm:items-center sm:justify-right mt-2">
+					<a
+						href="/quick-kb/articles/1"
+						data-tooltip-target="tooltip-edit"
+						data-modal-target="editWorkspaceModal"
+						data-modal-toggle="editWorkspaceModal"
+						type="button"
+						class="text-black bg-gray-300 hover:bg-blue-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+						><svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="size-3"
+							><path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125"
+							></path
+							></svg> <span class="sr-only">Icon description</span></a>
+					<div
+						id="tooltip-edit"
+						role="tooltip"
+						class="absolute z-10 inline-block px-2 py-1 text-xs font-medium text-white transition-opacity duration-300 bg-gray-900 rounded shadow-xs tooltip dark:bg-gray-700 opacity-0 invisible"
+						style="position: absolute; inset: auto auto 0px 0px; margin: 0px; transform: translate3d(347.5px, -323px, 0px);"
+						data-popper-placement="top">
+						Edit Article <div
+							class="tooltip-arrow"
+							data-popper-arrow=""
+							style="position: absolute; left: 0px; transform: translate3d(38px, 0px, 0px);">
+						</div>
+					</div>
+					<button
+						data-tooltip-target="tooltip-archive"
+						data-modal-target="popup-modal"
+						data-modal-toggle="popup-modal"
+						type="button"
+						class="text-black bg-gray-300 hover:bg-red-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+						><svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="size-3"
+							><path
+								stroke="currentColor"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M5 7h14m-9 3v8m4-8v8M10 3h4a1 1 0 0 1 1 1v3H9V4a1 1 0 0 1 1-1ZM6 7h12v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7Z"
+							></path
+							></svg> <span class="sr-only">Icon description</span></button>
+					<div
+						id="tooltip-archive"
+						role="tooltip"
+						class="absolute z-10 inline-block px-2 py-1 text-xs font-medium text-white transition-opacity duration-300 bg-gray-900 rounded shadow-sm tooltip dark:bg-gray-700 opacity-0 invisible"
+						style="position: absolute; inset: auto auto 0px 0px; margin: 0px; transform: translate3d(376.5px, -323px, 0px);"
+						data-popper-placement="top">
+						Archive Article <div
+							class="tooltip-arrow"
+							data-popper-arrow=""
+							style="position: absolute; left: 0px; transform: translate3d(49px, 0px, 0px);">
+						</div>
+					</div>
+				</div>
 			</div>
 
 			<div class="pb-5 border-b border-gray-200 dark:border-gray-700">

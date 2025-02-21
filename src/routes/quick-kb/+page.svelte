@@ -24,6 +24,14 @@
 		{ title: 'Modules List for Admin', link: '/quick-kb/modules/admin' },
 		{ title: 'Archived Module', link: '/quick-kb/modules/archived' }
 	];
+
+	let workflows = [
+		{ title: 'First Run', screens: firstrun },
+		{ title: 'Admin Land', screens: adminland },
+		{ title: 'Workspaces', screens: workspaces },
+		{ title: 'Modules', screens: modules }
+	];
+
 	let articles = [
 		{ title: 'Article List for Public', link: '/quick-kb/articles' },
 		{ title: 'Article List for Admin', link: '/quick-kb/articles/admin' },
@@ -34,13 +42,19 @@
 		{ title: 'Archived Article', link: '/quick-kb/articles/archived' }
 	];
 
-	let workflows = [
-		{ title: 'First Run', screens: firstrun },
-		{ title: 'Admin Land', screens: adminland },
-		{ title: 'Workspaces', screens: workspaces },
-		{ title: 'Modules', screens: modules }
+	let compact = [
+		{ title: 'Article List for Public', link: '/quick-kb/compact/articles' },
+		{ title: 'Article List for Admin', link: '/quick-kb/compact/articles/admin' },
+		{ title: 'Modules List for Public', link: '/quick-kb/compact/modules' },
+		{ title: 'Modules List for Admin', link: '/quick-kb/compact/modules/admin' },
+		{ title: 'Workspaces List for Public', link: '/quick-kb/compact/workspaces' },
+		{ title: 'Workspaces List for Admin', link: '/quick-kb/compact/workspaces/admin' }
 	];
-	let workflows2 = [{ title: 'Articles', screens: articles }];
+
+	let workflows2 = [
+		{ title: 'Articles', screens: articles },
+		{ title: 'Compact Theme', screens: compact }
+	];
 </script>
 
 <!-- 3 column wrapper -->

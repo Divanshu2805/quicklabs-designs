@@ -90,7 +90,39 @@
 					</div>
 				</div>
 				<div>
-					<h1 class="text-md font-semibold dark:text-white mt-6">Knowledge Base Name</h1>
+					<h1 class="text-md font-semibold dark:text-white mt-8">Theme Spacing</h1>
+					<p class="text-gray-500 dark:text-gray-400 text-xs">
+						Change how much space you want between elements
+					</p>
+
+					<div class="flex flex-wrap mt-2">
+						<div class="flex items-center me-4">
+							<input
+								checked
+								id="blue-radio"
+								type="radio"
+								value=""
+								name="colored-radio"
+								class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+							<label
+								for="blue-radio"
+								class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Default</label>
+						</div>
+						<div class="flex items-center me-4">
+							<input
+								id="blue-radio"
+								type="radio"
+								value=""
+								name="colored-radio"
+								class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
+							<label
+								for="blue-radio"
+								class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Compact</label>
+						</div>
+					</div>
+				</div>
+				<div>
+					<h1 class="text-md font-semibold dark:text-white mt-8">Knowledge Base Name</h1>
 					<p class="text-gray-500 dark:text-gray-400 text-xs">
 						Change name of your knowledge base. It will be displayed in the header among other
 						public pages.
