@@ -1,5 +1,5 @@
 <script>
-	import UserNavBar from '$quick-release/shared/usernavbar.svelte';
+	import PublicNavBar from '$quick-release/shared/publicnavbar.svelte';
 	let menu = { opened: false, filter: false };
 
 	function toggle() {
@@ -11,7 +11,7 @@
 	}
 </script>
 
-<UserNavBar />
+<PublicNavBar />
 <main class="mx-auto max-w-7xl pb-10 lg:py-4 lg:px-8">
 	<div class="lg:grid lg:grid-cols-12 lg:gap-x-5">
 		<aside class="py-6 px-2 sm:px-6 lg:col-span-3 lg:py-0 lg:px-0">
