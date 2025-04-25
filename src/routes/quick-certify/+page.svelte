@@ -15,6 +15,10 @@
 		{
 			title: 'Signup',
 			link: '/quick-certify/signup'
+		},
+		{
+			title: 'Google Signup',
+			link: '/quick-certify/signup/complete'
 		}
 	];
 
