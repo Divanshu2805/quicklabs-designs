@@ -24,7 +24,7 @@
 						type="email"
 						name="email"
 						id="email"
-						class="form-text-field"
+						class="form-input-field"
 						placeholder="name@company.com"
 						required="" />
 				</div>

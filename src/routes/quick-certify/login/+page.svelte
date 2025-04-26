@@ -27,7 +27,7 @@
 							type="email"
 							name="email"
 							id="email"
-							class="form-text-field"
+							class="form-input-field"
 							placeholder="name@company.com"
 							required="" />
 					</div>
@@ -40,7 +40,7 @@
 							name="password"
 							id="password"
 							placeholder="••••••••"
-							class="form-text-field"
+							class="form-input-field"
 							required="" />
 					</div>
 					<div class="flex items-center justify-between">
@@ -100,10 +100,7 @@
 					{/if}
 					<p
 						class="text-sm font-light text-gray-500 dark:text-gray-400 flex items-center justify-center">
-						Don’t have an account yet? <a
-							href="/quick-certify/signup"
-							class="font-medium text-primary-600 hover:underline dark:text-primary-500 ml-2"
-							>Sign up</a>
+						Don’t have an account yet? <a href="/quick-certify/signup" class="link ml-2">Sign up</a>
 					</p>
 				</form>
 			</div>

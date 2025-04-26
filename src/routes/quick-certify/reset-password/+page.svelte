@@ -24,7 +24,7 @@
 						name="password"
 						id="password"
 						placeholder="••••••••"
-						class="form-text-field"
+						class="form-input-field"
 						required="" />
 				</div>
 				<div>
@@ -37,7 +37,7 @@
 						name="confirm-password"
 						id="confirm-password"
 						placeholder="••••••••"
-						class="form-text-field"
+						class="form-input-field"
 						required="" />
 				</div>
 

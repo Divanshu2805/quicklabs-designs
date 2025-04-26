@@ -31,7 +31,7 @@
 									type="text"
 									name="name"
 									id="name"
-									class="form-text-field"
+									class="form-input-field"
 									placeholder="John"
 									required="" />
 							</div>
@@ -44,7 +44,7 @@
 									type="text"
 									name="name"
 									id="name"
-									class="form-text-field"
+									class="form-input-field"
 									placeholder="Doe"
 									required="" />
 							</div>
@@ -57,7 +57,7 @@
 								type="text"
 								name="name"
 								id="name"
-								class="form-text-field"
+								class="form-input-field"
 								placeholder="Issuer or company name"
 								required="" />
 						</div>
@@ -68,7 +68,7 @@
 								type="text"
 								name="name"
 								id="name"
-								class="form-text-field"
+								class="form-input-field"
 								placeholder="Website URL"
 								required="" />
 						</div>

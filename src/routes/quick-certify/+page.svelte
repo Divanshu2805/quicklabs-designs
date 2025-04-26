@@ -25,6 +25,7 @@
 	let profileSettings = [
 		{ title: 'General', link: '/quick-certify/settings/profile/general' },
 		{ title: 'Change Password', link: '/quick-certify/settings/profile/password' },
+		{ title: 'Change Password (Google)', link: '/quick-certify/settings/profile/password-google' },
 		{ title: 'Preferences', link: '/quick-certify/settings/profile/preferences' }
 	];
 	let accountSettings = [

@@ -43,7 +43,7 @@
 								type="search"
 								name="search"
 								id="search"
-								class="pl-10 form-text-field"
+								class="pl-10 form-input-field"
 								placeholder="Search"
 								data-nav-search-target="input"
 								autocomplete="off"
