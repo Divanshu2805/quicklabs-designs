@@ -1,6 +1,7 @@
 <script>
 	import NavBar from '$quick-certify/common/navbar/admin.svelte';
 	import SideBar from '$quick-certify/common/navbar/account.svelte';
+	import InfoButton from '$lib/tooltip.svelte';
 </script>
 
 <NavBar />
@@ -63,18 +64,17 @@
 						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
 							>Issuer or Organisation Name
 						</label>
-						<input
-							id="name"
-							class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-							placeholder="Issuer Name"
-							required />
+						<input id="name" class="form-input-field" placeholder="Issuer Name" required />
 					</div>
 
 					<div class="mb-5">
-						<label
-							for="password"
-							class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Issuer Description</label>
+						<div class="flex items-center space-x-1 mb-2">
+							<label for="password" class="block text-sm font-medium text-gray-900 dark:text-white"
+								>Issuer Description</label>
+							<InfoButton
+								tooltipText="Write a few words about your organization to let people know what you specialize in. This description will be displayed on each credential page under your organization’s name."
+								id="tooltip-hot" />
+						</div>
 						<textarea
 							id="message"
 							rows="4"
@@ -83,12 +83,17 @@
 					</div>
 
 					<div class="mb-5 mt-4">
-						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Support Email</label>
+						<div class="flex items-center space-x-1 mb-2">
+							<label for="password" class="block text-sm font-medium text-gray-900 dark:text-white"
+								>Support Email</label>
+							<InfoButton
+								tooltipText="Enter the preferred email address your recipients can use to contact you regarding changes or problems with their credential."
+								id="tooltip-support" />
+						</div>
 						<input
 							type="email"
 							id="email"
-							class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+							class="form-input-field"
 							placeholder="johndoe@gmail.com"
 							required />
 					</div>
@@ -98,14 +103,11 @@
 						</label>
 						<input
 							id="name"
-							class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+							class="form-input-field"
 							placeholder="Issuer slogan or tagline"
 							required />
 					</div>
-					<button
-						type="submit"
-						class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-sm text-sm w-full sm:w-auto px-5 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-						>Save</button>
+					<button type="submit" class="btn-primary">Save</button>
 				</form>
 			</div>
 		</main>
