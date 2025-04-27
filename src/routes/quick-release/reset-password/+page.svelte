@@ -13,9 +13,9 @@
 			class="w-full p-6 bg-white rounded-sm shadow dark:border md:mt-0 sm:max-w-md dark:bg-gray-800 dark:border-gray-700 sm:p-8">
 			<h2
 				class="mb-1 text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-				Set your Password
+				Change Password
 			</h2>
-			<form class="mt-4 space-y-4 lg:mt-5 md:space-y-5" action="#">
+			<form class="mt-4 space-y-4 lg:mt-5 md:space-y-5" action="/quick-release/login">
 				<div>
 					<label for="password" class="form-input-label">New Password</label>
 					<input
@@ -23,23 +23,27 @@
 						name="password"
 						id="password"
 						placeholder="••••••••"
-						class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+						class="form-input-field"
 						required="" />
 				</div>
 				<div>
 					<label for="confirm-password" class="form-input-label">Confirm password</label>
 					<input
-						type="confirm-password"
+						type="password"
 						name="confirm-password"
 						id="confirm-password"
 						placeholder="••••••••"
-						class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+						class="form-input-field"
 						required="" />
 				</div>
-				<button
-					type="submit"
-					class="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-					>Set password</button>
+
+				<button type="submit" class="w-full btn-primary">Change Password</button>
+				<p class="text-sm font-light text-gray-500 dark:text-gray-400 text-center">
+					<a
+						href="/quick-release/login"
+						class="font-medium text-primary-600 hover:underline dark:text-primary-500"
+						>Return Back to Login</a>
+				</p>
 			</form>
 		</div>
 	</div>
