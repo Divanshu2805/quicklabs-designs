@@ -11,12 +11,12 @@
 		</a>
 		<div
 			class="w-full bg-white rounded-sm shadow dark:border md:mt-0 sm:max-w-lg xl:p-0 dark:bg-gray-800 dark:border-gray-700">
-			<div class="p-6 space-y-4 md:space-y-6 sm:p-8">
+			<div class="p-6 space-y-4 md:space-y-4 sm:p-8">
 				<h1
 					class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
 					Create your account
 				</h1>
-				<form class="space-y-4 md:space-y-6" action="#">
+				<form class="space-y-4 md:space-y-4" action="#">
 					<div class="grid gap-4 sm:grid-cols-2 sm:gap-6">
 						<div>
 							<label for="first-name" class="form-input-label">First Name</label>
