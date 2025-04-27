@@ -11,10 +11,8 @@
 
 		<main class="max-w-xl pb-12 px-4 lg:col-span-6">
 			<div>
-				<h1 class="text-lg font-semibold dark:text-white">Billing Information</h1>
-				<p class="text-gray-500 dark:text-gray-400 text-sm">
-					Manager your billing plan and invoices
-				</p>
+				<h1 class="form-title">Billing Information</h1>
+				<p class="form-subtitle">Manager your billing plan and invoices</p>
 			</div>
 		</main>
 	</div>

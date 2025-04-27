@@ -11,8 +11,8 @@
 
 		<main class="max-w-xl pb-12 px-4 lg:col-span-6">
 			<div>
-				<h1 class="text-lg font-semibold dark:text-white">Issuer Portal</h1>
-				<p class="text-gray-500 dark:text-gray-400 text-sm">
+				<h1 class="form-title">Issuer Portal</h1>
+				<p class="form-subtitle">
 					Issuer Portal is public page where all the public events are visible to internet.
 				</p>
 			</div>
