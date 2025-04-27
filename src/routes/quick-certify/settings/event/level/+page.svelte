@@ -21,8 +21,7 @@
 
 				<form class="w-full mt-6">
 					<div class="mb-5 mt-6">
-						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Add New Event Level</label>
+						<label for="email" class="form-input-label">Add New Event Level</label>
 						<input
 							type="email"
 							id="email"

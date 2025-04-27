@@ -13,8 +13,8 @@
 
 		<main class="max-w-xl pb-12 px-4 lg:col-span-6">
 			<div>
-				<h1 class="text-lg font-semibold dark:text-white">Preferences</h1>
-				<p class="text-gray-500 dark:text-gray-400 text-sm">Change your personal preferences</p>
+				<h1 class="form-title">Preferences</h1>
+				<p class="form-subtitle">Change your personal preferences</p>
 
 				<div class="flex mt-6">
 					<div class="flex items-center h-5">
@@ -26,11 +26,8 @@
 							class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
 					</div>
 					<div class="ms-2 text-sm">
-						<label for="helper-checkbox" class="font-medium text-gray-900 dark:text-gray-300"
-							>Enable All Email Alerts</label>
-						<p
-							id="helper-checkbox-text"
-							class="text-sm font-normal text-gray-400 dark:text-gray-300">
+						<label for="helper-checkbox" class="form-input-label">Enable All Email Alerts</label>
+						<p id="helper-checkbox-text" class="form-input-description -mt-2">
 							If disabled, no email alert will land in your inbox.
 						</p>
 					</div>

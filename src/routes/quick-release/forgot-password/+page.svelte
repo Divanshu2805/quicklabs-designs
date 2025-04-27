@@ -16,8 +16,7 @@
 				</h1>
 				<form class="space-y-4 md:space-y-6" action="#">
 					<div>
-						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Your email</label>
+						<label for="email" class="form-input-label">Your email</label>
 						<input
 							type="email"
 							name="email"

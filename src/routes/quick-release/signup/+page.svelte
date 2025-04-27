@@ -17,10 +17,7 @@
 				<form class="space-y-4 md:space-y-6" action="#">
 					<div class="grid gap-4 sm:grid-cols-2 sm:gap-6">
 						<div>
-							<label
-								for="first-name"
-								class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-								>First Name</label>
+							<label for="first-name" class="form-input-label">First Name</label>
 							<input
 								type="text"
 								name="first-name"
@@ -30,10 +27,7 @@
 								required="" />
 						</div>
 						<div>
-							<label
-								for="last-name"
-								class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-								>Last Name</label>
+							<label for="last-name" class="form-input-label">Last Name</label>
 							<input
 								type="text"
 								name="first-name"
@@ -45,8 +39,7 @@
 					</div>
 
 					<div>
-						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Your email</label>
+						<label for="email" class="form-input-label">Your email</label>
 						<input
 							type="email"
 							name="email"
@@ -56,10 +49,7 @@
 							required="" />
 					</div>
 					<div>
-						<label
-							for="company-name"
-							class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Organization Name</label>
+						<label for="company-name" class="form-input-label">Organization Name</label>
 						<input
 							type="text"
 							name="company-name"
@@ -70,9 +60,7 @@
 					</div>
 
 					<div>
-						<label
-							for="password"
-							class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
+						<label for="password" class="form-input-label">Password</label>
 						<input
 							type="password"
 							name="password"
@@ -82,10 +70,7 @@
 							required="" />
 					</div>
 					<div>
-						<label
-							for="confirm-password"
-							class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Confirm password</label>
+						<label for="confirm-password" class="form-input-label">Confirm password</label>
 						<input
 							type="confirm-password"
 							name="confirm-password"

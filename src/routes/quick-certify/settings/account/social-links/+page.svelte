@@ -11,17 +11,15 @@
 
 		<main class="max-w-xl pb-12 px-4 lg:col-span-6">
 			<div>
-				<h1 class="text-lg font-semibold dark:text-white">Social Links</h1>
-				<p class="text-gray-500 dark:text-gray-400 text-sm">
+				<h1 class="form-title">Social Links</h1>
+				<p class="form-subtitle">
 					Add social links to your issuer profile. There are shown on various public pages to help
 					users connect with you.
 				</p>
 
 				<form class="w-full mt-4">
 					<div class="mb-5 mt-4">
-						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>LinkedIn Profile Link
-						</label>
+						<label for="email" class="form-input-label">LinkedIn Profile Link </label>
 						<div class="flex">
 							<span
 								class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border rounded-e-0 border-gray-300 border-e-0 rounded-s-sm dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
@@ -50,9 +48,7 @@
 					</div>
 
 					<div class="mb-5 mt-4">
-						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Facebook Profile Link
-						</label>
+						<label for="email" class="form-input-label">Facebook Profile Link </label>
 						<div class="flex">
 							<span
 								class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border rounded-e-0 border-gray-300 border-e-0 rounded-s-sm dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
@@ -76,9 +72,7 @@
 						</div>
 					</div>
 					<div class="mb-5 mt-4">
-						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Twitter/X Profile Link
-						</label>
+						<label for="email" class="form-input-label">Twitter/X Profile Link </label>
 						<div class="flex">
 							<span
 								class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border rounded-e-0 border-gray-300 border-e-0 rounded-s-sm dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
@@ -102,9 +96,7 @@
 						</div>
 					</div>
 					<div class="mb-5 mt-4">
-						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Website Link
-						</label>
+						<label for="email" class="form-input-label">Website Link </label>
 						<div class="flex">
 							<span
 								class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border rounded-e-0 border-gray-300 border-e-0 rounded-s-sm dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">

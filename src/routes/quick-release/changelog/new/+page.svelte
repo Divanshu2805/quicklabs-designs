@@ -37,8 +37,7 @@
 			</div>
 
 			<div class="sm:col-span-2">
-				<label for="biography" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-					>Description</label>
+				<label for="biography" class="form-input-label">Description</label>
 				<div
 					class="w-full bg-gray-50 rounded-lg border border-gray-200 dark:bg-gray-700 dark:border-gray-600">
 					<div class="flex justify-between items-center border-b dark:border-gray-600">

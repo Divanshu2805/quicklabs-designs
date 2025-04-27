@@ -13,8 +13,7 @@
 			</h2>
 			<form class="mt-4 space-y-4 lg:mt-5 md:space-y-5" action="/quick-kb/firstrun/login">
 				<div>
-					<label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-						>New Password</label>
+					<label for="password" class="form-input-label">New Password</label>
 					<input
 						type="password"
 						name="password"
@@ -24,10 +23,7 @@
 						required="" />
 				</div>
 				<div>
-					<label
-						for="confirm-password"
-						class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-						>Confirm password</label>
+					<label for="confirm-password" class="form-input-label">Confirm password</label>
 					<input
 						type="password"
 						name="confirm-password"

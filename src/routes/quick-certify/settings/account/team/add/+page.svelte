@@ -21,9 +21,7 @@
 				<div class="mt-4 grid gap-4 sm:grid-cols-2 sm:gap-4">
 					<div>
 						<div>
-							<label
-								class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-								for="user_first_name">First Name</label>
+							<label class="form-input-label" for="user_first_name">First Name</label>
 							<div class="mt-1">
 								<input
 									class="appearance-none block bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -36,9 +34,7 @@
 					</div>
 					<div>
 						<div>
-							<label
-								class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-								for="user_last_name">Last Name</label>
+							<label class="form-input-label" for="user_last_name">Last Name</label>
 							<div class="mt-1">
 								<input
 									class="appearance-none block bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -51,9 +47,7 @@
 					</div>
 					<div>
 						<div>
-							<label
-								class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-								for="user_email">Email</label>
+							<label class="form-input-label" for="user_email">Email</label>
 							<div class="mt-1">
 								<input
 									class="appearance-none block bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"

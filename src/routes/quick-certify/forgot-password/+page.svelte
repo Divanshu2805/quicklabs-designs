@@ -17,9 +17,7 @@
 			</h2>
 			<form class="mt-4 space-y-4 lg:mt-5 md:space-y-5" action="/quick-certify/reset-password">
 				<div>
-					<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-						>Enter email to recover password
-					</label>
+					<label for="email" class="form-input-label">Enter email to recover password </label>
 					<input
 						type="email"
 						name="email"

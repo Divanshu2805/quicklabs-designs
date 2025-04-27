@@ -11,15 +11,16 @@
 
 		<main class="max-w-xl pb-12 px-4 lg:col-span-6">
 			<div>
-				<h1 class="text-lg font-semibold dark:text-white">Branding</h1>
-				<p class="text-gray-500 dark:text-gray-400 text-sm">
-					Add issuer logo and other brand related information
-				</p>
+				<h1 class="form-title">Branding</h1>
+				<p class="form-subtitle">Add issuer logo and other brand related information</p>
 			</div>
 			<div class="mt-4">
-				<label
-					for="dropzone-file"
-					class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Issuer Logo</label>
+				<label for="dropzone-file" class="form-input-label">Issuer Logo</label>
+				<p class="form-input-description -mt-2 mb-2">
+					Your logo appears on your issuer page, and with all published credentials on Quick
+					Certify. Recommended size: Square, at least 400 pixels per side. File type: JPG, JPEG, or
+					PNG
+				</p>
 				<div class="flex justify-center items-center w-64">
 					<label
 						for="dropzone-file"

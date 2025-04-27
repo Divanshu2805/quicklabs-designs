@@ -18,8 +18,7 @@
 				</h1>
 				<form class="space-y-4" action="/quick-kb/firstrun/recovery">
 					<div>
-						<label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Full Name</label>
+						<label for="name" class="form-input-label">Full Name</label>
 						<input
 							type="text"
 							name="name"
@@ -30,8 +29,7 @@
 					</div>
 
 					<div>
-						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Your email</label>
+						<label for="email" class="form-input-label">Your email</label>
 						<input
 							type="email"
 							name="email"
@@ -41,8 +39,7 @@
 							required="" />
 					</div>
 					<div>
-						<label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Name of the Knowledge Base</label>
+						<label class="form-input-label">Name of the Knowledge Base</label>
 						<input
 							name="name"
 							id="name"
@@ -52,9 +49,7 @@
 					</div>
 
 					<div>
-						<label
-							for="password"
-							class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
+						<label for="password" class="form-input-label">Password</label>
 						<input
 							type="password"
 							name="password"
@@ -64,10 +59,7 @@
 							required="" />
 					</div>
 					<div>
-						<label
-							for="password"
-							class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Confirm Password</label>
+						<label for="password" class="form-input-label">Confirm Password</label>
 						<input
 							type="password"
 							name="password"

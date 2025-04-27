@@ -54,8 +54,7 @@
 
 				<form class="w-full mt-6">
 					<div class="mb-5 mt-6">
-						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Add new Skill</label>
+						<label for="email" class="form-input-label">Add new Skill</label>
 						<input
 							type="email"
 							id="email"

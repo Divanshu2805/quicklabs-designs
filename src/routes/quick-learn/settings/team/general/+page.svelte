@@ -18,9 +18,7 @@
 
 				<form class="w-full mt-6">
 					<div class="sm:col-span-2">
-						<label
-							class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							for="file_input">Upload Team Logo</label>
+						<label class="form-input-label" for="file_input">Upload Team Logo</label>
 						<div class="items-center w-full sm:flex">
 							<img
 								class="w-20 h-20 mb-4 rounded-full sm:mr-4 sm:mb-0"
@@ -30,8 +28,7 @@
 					</div>
 
 					<div class="mb-5 mt-6">
-						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Team Name</label>
+						<label for="email" class="form-input-label">Team Name</label>
 						<input
 							type="email"
 							id="email"

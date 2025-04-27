@@ -74,8 +74,7 @@
 
 				<form class="w-full mt-6">
 					<div class="mb-5 mt-6">
-						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Old Password</label>
+						<label for="email" class="form-input-label">Old Password</label>
 						<input
 							type="email"
 							id="email"
@@ -84,8 +83,7 @@
 							required />
 					</div>
 					<div class="mb-5">
-						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>New Password</label>
+						<label for="email" class="form-input-label">New Password</label>
 						<input
 							type="email"
 							id="email"
@@ -95,10 +93,7 @@
 					</div>
 
 					<div class="mb-5">
-						<label
-							for="password"
-							class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Confirm password</label>
+						<label for="password" class="form-input-label">Confirm password</label>
 						<input
 							type="password"
 							id="password"

@@ -13,7 +13,7 @@
 			</h2>
 			<form class="mt-4 space-y-4 lg:mt-5 md:space-y-5" action="/quick-kb/firstrun/reset-password">
 				<div>
-					<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+					<label for="email" class="form-input-label"
 						>Enter recovery code to recover password. Recovery code was created when you signed up.
 					</label>
 					<input

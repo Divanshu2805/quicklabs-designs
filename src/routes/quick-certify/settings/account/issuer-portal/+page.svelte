@@ -19,10 +19,11 @@
 
 			<div class="mt-4">
 				<div class="mb-2">
-					<label for="dropzone-file" class="block text-sm font-medium text-gray-900 dark:text-white"
-						>Banner Image</label>
-					<label for="product-options" class="text-xs text-gray-500 dark:text-gray-300"
-						>Banner image is shown on issuer portal if it is enabled</label>
+					<label for="dropzone-file" class="form-input-label">Banner Image</label>
+					<p class="form-input-description -mt-2 mb-2">
+						Banner image is shown on issuer portal if it is enabled. Recommended size: At least
+						1920px wide by 300px tall. File type: JPG, JPEG, or PNG
+					</p>
 				</div>
 				<div class="flex justify-center items-center w-full">
 					<label
@@ -46,7 +47,7 @@
 							<p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
 								<span class="font-semibold">Click to upload</span> or drag and drop
 							</p>
-							<p class="mb-4 text-xs text-gray-500 dark:text-gray-400">Size: 1152x192</p>
+							<p class="mb-4 text-xs text-gray-500 dark:text-gray-400">Size: 1920x300</p>
 						</div>
 						<input id="dropzone-file" type="file" class="hidden" />
 					</label>
@@ -62,9 +63,8 @@
 						class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
 				</div>
 				<div class="ms-2 text-sm">
-					<label for="helper-checkbox" class="font-medium text-gray-900 dark:text-gray-300"
-						>Enable Issuer Portal</label>
-					<p id="helper-checkbox-text" class="text-sm font-normal text-gray-400 dark:text-gray-300">
+					<label for="helper-checkbox" class="form-input-label">Enable Issuer Portal</label>
+					<p id="helper-checkbox-text" class="form-input-description -mt-2">
 						If disabled, there will be no public page to showcase public events limiting your reach.
 						Issuer portal is enabled by default.
 					</p>

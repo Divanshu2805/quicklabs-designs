@@ -54,16 +54,14 @@
 				</div>
 			</div>
 			<div>
-				<h1 class="text-lg font-semibold dark:text-white">General Information</h1>
-				<p class="text-gray-500 dark:text-gray-400 text-sm">
+				<h1 class="form-title">General Information</h1>
+				<p class="form-subtitle">
 					Add more details about the organisation or the certificate issuer
 				</p>
 
 				<form class="w-full mt-4">
 					<div class="mb-5 mt-4">
-						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Issuer or Organisation Name
-						</label>
+						<label for="email" class="form-input-label">Issuer or Organisation Name </label>
 						<input id="name" class="form-input-field" placeholder="Issuer Name" required />
 					</div>
 
@@ -98,14 +96,51 @@
 							required />
 					</div>
 					<div class="mb-5 mt-4">
-						<label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Slogan
-						</label>
+						<label for="email" class="form-input-label">Slogan </label>
 						<input
 							id="name"
 							class="form-input-field"
 							placeholder="Issuer slogan or tagline"
 							required />
+					</div>
+					<div class="mb-5 mt-4">
+						<div class="flex items-center space-x-1 mb-2">
+							<label for="email" class="block text-sm font-medium text-gray-900 dark:text-white"
+								>LinkedIn Company ID
+							</label>
+							<InfoButton
+								tooltipText="Providing the Linkedin Company ID ensures that all certificates your recipients add to their LinkedIn profiles will have your organization automatically selected as an issuer. "
+								id="tooltip-linkedin" />
+						</div>
+						<div class="flex">
+							<span
+								class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border rounded-e-0 border-gray-300 border-e-0 rounded-s-sm dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									class="lucide lucide-linkedin w-4 h-4 text-gray-500 dark:text-gray-400"
+									><path
+										d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect
+										width="4"
+										height="12"
+										x="2"
+										y="9" /><circle cx="4" cy="4" r="2" /></svg>
+							</span>
+							<input
+								type="text"
+								id="website-admin"
+								class="form-input-field"
+								placeholder="Linkedin company ID" />
+						</div>
+						<p class="form-input-description">
+							To find your LinkedIn Company ID, open your company’s profile being logged in as an
+							admin, and copy the numbers before “/admin” in the URL.
+						</p>
 					</div>
 					<button type="submit" class="btn-primary">Save</button>
 				</form>

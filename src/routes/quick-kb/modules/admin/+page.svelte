@@ -263,8 +263,7 @@
 			<form action="#">
 				<div class="grid gap-4 mb-4">
 					<div>
-						<label for="title" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Title</label>
+						<label for="title" class="form-input-label">Title</label>
 						<input
 							type="text"
 							name="title"
@@ -275,10 +274,7 @@
 					</div>
 
 					<div>
-						<label
-							for="description"
-							class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Description</label>
+						<label for="description" class="form-input-label">Description</label>
 						<textarea
 							id="message"
 							rows="4"
@@ -339,8 +335,7 @@
 			<form action="#">
 				<div class="grid gap-4 mb-4">
 					<div>
-						<label for="title" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Title</label>
+						<label for="title" class="form-input-label">Title</label>
 						<input
 							type="text"
 							name="title"
@@ -351,10 +346,7 @@
 					</div>
 
 					<div>
-						<label
-							for="description"
-							class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Description</label>
+						<label for="description" class="form-input-label">Description</label>
 						<textarea
 							id="message"
 							rows="4"

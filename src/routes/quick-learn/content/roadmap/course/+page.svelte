@@ -447,8 +447,7 @@
 			<form action="#">
 				<div class="grid gap-4 mb-4 sm:grid-cols-1">
 					<div class="sm:col-span-2">
-						<label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Name</label>
+						<label for="name" class="form-input-label">Name</label>
 						<input
 							type="text"
 							name="name"
@@ -458,10 +457,7 @@
 							required="" />
 					</div>
 					<div class="sm:col-span-2">
-						<label
-							for="category"
-							class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Course Category</label>
+						<label for="category" class="form-input-label">Course Category</label>
 						<select
 							id="category"
 							class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
@@ -473,10 +469,7 @@
 						</select>
 					</div>
 					<div class="sm:col-span-2">
-						<label
-							for="description"
-							class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Description</label>
+						<label for="description" class="form-input-label">Description</label>
 						<textarea
 							id="description"
 							rows="4"
@@ -557,8 +550,7 @@
 			<form action="#">
 				<div class="grid gap-4 mb-4 sm:grid-cols-1">
 					<div class="sm:col-span-2">
-						<label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Name</label>
+						<label for="name" class="form-input-label">Name</label>
 						<input
 							type="text"
 							name="name"
@@ -568,10 +560,7 @@
 							required="" />
 					</div>
 					<div class="sm:col-span-2">
-						<label
-							for="category"
-							class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Course Category</label>
+						<label for="category" class="form-input-label">Course Category</label>
 						<select
 							id="category"
 							class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
@@ -583,10 +572,7 @@
 						</select>
 					</div>
 					<div class="sm:col-span-2">
-						<label
-							for="description"
-							class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-							>Description</label>
+						<label for="description" class="form-input-label">Description</label>
 						<textarea
 							id="description"
 							rows="4"

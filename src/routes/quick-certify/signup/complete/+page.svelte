@@ -23,10 +23,7 @@
 					<div class="space-y-4">
 						<div class="mt-4 grid gap-4 sm:grid-cols-2 sm:gap-6">
 							<div>
-								<label
-									for="name"
-									class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-									>First Name</label>
+								<label for="name" class="form-input-label">First Name</label>
 								<input
 									type="text"
 									name="name"
@@ -36,10 +33,7 @@
 									required="" />
 							</div>
 							<div>
-								<label
-									for="name"
-									class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-									>Last Name</label>
+								<label for="name" class="form-input-label">Last Name</label>
 								<input
 									type="text"
 									name="name"
@@ -51,8 +45,7 @@
 						</div>
 
 						<div>
-							<label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-								>Issuer name</label>
+							<label for="name" class="form-input-label">Issuer name</label>
 							<input
 								type="text"
 								name="name"
@@ -62,8 +55,7 @@
 								required="" />
 						</div>
 						<div>
-							<label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-								>Issuer Website URL</label>
+							<label for="name" class="form-input-label">Issuer Website URL</label>
 							<input
 								type="text"
 								name="name"
