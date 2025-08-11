@@ -106,8 +106,8 @@
 					</div>
 				</div>
 
-				<button type="submit" class="btn-primary mt-6"> Send Invitation </button>
-				<a class="btn-secondary" href="/quick-certify">Cancel</a>
+				<button type="submit" class="btn-primary mt-4"> Send Invitation </button>
+				<a class="btn-secondary ml-1" href="/quick-certify">Cancel</a>
 			</form>
 		</div>
 	</section>

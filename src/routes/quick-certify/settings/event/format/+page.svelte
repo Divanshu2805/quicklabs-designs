@@ -25,14 +25,11 @@
 						<input
 							type="email"
 							id="email"
-							class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+							class="form-input-field"
 							placeholder="New event format"
 							required />
 					</div>
-					<button
-						type="submit"
-						class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-sm text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-						>Save</button>
+					<button type="submit" class="btn-primary">Save</button>
 				</form>
 
 				<div class="relative overflow-x-auto mt-8">
@@ -85,16 +82,13 @@
 									<input
 										type="text"
 										id="last_name"
-										class="p-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+										class="form-input-field"
 										placeholder="Engineering"
 										value="Hybrid"
 										required />
 								</th>
 								<td>
-									<button
-										type="submit"
-										class="text-white ml-2 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-sm text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-										>Save</button>
+									<button type="submit" class="btn-primary ml-2">Save</button>
 								</td>
 							</tr>
 						</tbody>
