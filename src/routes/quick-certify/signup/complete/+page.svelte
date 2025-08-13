@@ -15,10 +15,7 @@
 		<div
 			class="w-full bg-white rounded-sm shadow dark:border md:mt-0 sm:max-w-lg xl:p-0 dark:bg-gray-800 dark:border-gray-700">
 			<div class="p-6 space-y-6 md:space-y-6 sm:p-8">
-				<h1
-					class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-					Tell us more about your issuer account
-				</h1>
+				<h1 class="h1">Tell us more about your issuer account</h1>
 				<form class="space-y-6" action="#">
 					<div class="space-y-4">
 						<div class="mt-4 grid gap-4 sm:grid-cols-2 sm:gap-6">
@@ -70,10 +67,7 @@
 
 						<p
 							class="text-sm font-light text-gray-500 dark:text-gray-400 flex justify-center items-center">
-							Already have an account? <a
-								href="/quick-certify/login"
-								class="font-medium text-primary-600 hover:underline dark:text-primary-500 ml-2"
-								>Login</a>
+							Already have an account? <a href="/quick-certify/login" class="link ml-2">Login</a>
 						</p>
 					</div>
 				</form>

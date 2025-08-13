@@ -15,10 +15,7 @@
 		<div
 			class="w-full bg-white rounded-sm shadow dark:border md:mt-0 sm:max-w-lg xl:p-0 dark:bg-gray-800 dark:border-gray-700">
 			<div class="p-6 space-y-6 md:space-y-6 sm:p-8">
-				<h1
-					class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-					Register new issuer account
-				</h1>
+				<h1 class="h1">Register new issuer account</h1>
 				<form class="space-y-6" action="#">
 					<div class="space-y-4">
 						<div class="mt-4 grid gap-4 sm:grid-cols-2 sm:gap-6">
@@ -28,7 +25,7 @@
 									type="text"
 									name="name"
 									id="name"
-									class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+									class="form-input-field"
 									placeholder="John"
 									required="" />
 							</div>
@@ -38,7 +35,7 @@
 									type="text"
 									name="name"
 									id="name"
-									class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+									class="form-input-field"
 									placeholder="Doe"
 									required="" />
 							</div>
@@ -49,7 +46,7 @@
 								type="email"
 								name="email"
 								id="email"
-								class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+								class="form-input-field"
 								placeholder="name@company.com"
 								required="" />
 						</div>
@@ -59,7 +56,7 @@
 								type="text"
 								name="name"
 								id="name"
-								class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+								class="form-input-field"
 								placeholder="Issuer or company name"
 								required="" />
 						</div>
@@ -69,7 +66,7 @@
 								type="text"
 								name="name"
 								id="name"
-								class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+								class="form-input-field"
 								placeholder="Website URL"
 								required="" />
 						</div>
@@ -81,7 +78,7 @@
 									name="password"
 									id="password"
 									placeholder="••••••••"
-									class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+									class="form-input-field"
 									required="" />
 							</div>
 							<div>
@@ -91,7 +88,7 @@
 									name="password"
 									id="password"
 									placeholder="••••••••"
-									class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+									class="form-input-field"
 									required="" />
 							</div>
 						</div>
@@ -134,10 +131,7 @@
 						{/if}
 						<p
 							class="text-sm font-light text-gray-500 dark:text-gray-400 flex justify-center items-center">
-							Already have an account? <a
-								href="/quick-certify/login"
-								class="font-medium text-primary-600 hover:underline dark:text-primary-500 ml-2"
-								>Login</a>
+							Already have an account? <a href="/quick-certify/login" class="link ml-2">Login</a>
 						</p>
 					</div>
 				</form>

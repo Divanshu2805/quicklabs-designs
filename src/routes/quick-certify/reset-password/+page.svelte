@@ -11,10 +11,7 @@
 		</a>
 		<div
 			class="w-full p-6 bg-white rounded-sm shadow dark:border md:mt-0 sm:max-w-md dark:bg-gray-800 dark:border-gray-700 sm:p-8">
-			<h2
-				class="mb-1 text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
-				Set a new password
-			</h2>
+			<h2 class="h1">Set a new password</h2>
 			<form class="mt-4 space-y-4 lg:mt-5 md:space-y-5" action="/quick-certify/login">
 				<div>
 					<label for="password" class="form-input-label">New Password</label>
@@ -39,10 +36,7 @@
 
 				<button type="submit" class="w-full btn-primary">Change Password</button>
 				<p class="text-sm font-light text-gray-500 dark:text-gray-400 text-center">
-					<a
-						href="/quick-certify/login"
-						class="font-medium text-primary-600 hover:underline dark:text-primary-500"
-						>Return Back to Login</a>
+					<a href="/quick-certify/login" class="link">Return Back to Login</a>
 				</p>
 			</form>
 		</div>
