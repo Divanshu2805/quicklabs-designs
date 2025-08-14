@@ -208,7 +208,7 @@
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
 					Are you sure you want to delete this article?
 				</h3>
-				<p class="mb-5 font-xs text-gray-500">
+				<p class="mb-4 font-xs text-gray-500">
 					This will delete article permanently and cannot be undone.
 				</p>
 				<button
@@ -271,7 +271,7 @@
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
 					Are you sure you want to restore this article?
 				</h3>
-				<p class="mb-5 font-xs text-gray-500">
+				<p class="mb-4 font-xs text-gray-500">
 					Once this article is restored, its content will also be restored and users will be able to
 					see it.
 				</p>

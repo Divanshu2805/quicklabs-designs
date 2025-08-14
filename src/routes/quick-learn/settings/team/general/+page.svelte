@@ -27,7 +27,7 @@
 						</div>
 					</div>
 
-					<div class="mb-5 mt-6">
+					<div class="mb-4 mt-6">
 						<label for="email" class="form-input-label">Team Name</label>
 						<input
 							type="email"

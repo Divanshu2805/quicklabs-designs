@@ -210,7 +210,7 @@
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
 					Are you sure you want to delete this roadmap?
 				</h3>
-				<p class="mb-5 font-xs text-gray-500">
+				<p class="mb-4 font-xs text-gray-500">
 					All the information regarding this roadmap will be lost. If this was assigned to any user,
 					users will not be able to access this roadmap anymore, their progress will be lost. This
 					is not reversible.
@@ -274,7 +274,7 @@
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
 					Are you sure you want to restore this roadmap?
 				</h3>
-				<p class="mb-5 font-xs text-gray-500">
+				<p class="mb-4 font-xs text-gray-500">
 					Once this roadmaps is restored, users will be able to see it and if they made some
 					progress on it in the past, that will also be restored.
 				</p>

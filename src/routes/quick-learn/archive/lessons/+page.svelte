@@ -210,7 +210,7 @@
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
 					Are you sure you want to delete this lesson?
 				</h3>
-				<p class="mb-5 font-xs text-gray-500">
+				<p class="mb-4 font-xs text-gray-500">
 					When this lesson is deleted, no one can a access it and all the information related to it
 					is also lost.
 				</p>
@@ -273,7 +273,7 @@
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
 					Are you sure you want to restore this lesson?
 				</h3>
-				<p class="mb-5 font-xs text-gray-500">
+				<p class="mb-4 font-xs text-gray-500">
 					Once this lesson is restored, users will be able to access it.
 				</p>
 				<button

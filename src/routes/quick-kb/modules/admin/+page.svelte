@@ -239,7 +239,7 @@
 		<!-- Modal content -->
 		<div class="relative p-4 bg-white rounded-lg shadow dark:bg-gray-800 sm:p-5">
 			<!-- Modal header -->
-			<div class="flex justify-between items-center mb-4 sm:mb-5 dark:border-gray-600">
+			<div class="flex justify-between items-center mb-4 sm:mb-4 dark:border-gray-600">
 				<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Add new module</h3>
 				<button
 					type="button"
@@ -311,7 +311,7 @@
 		<!-- Modal content -->
 		<div class="relative p-4 bg-white rounded-lg shadow dark:bg-gray-800 sm:p-5">
 			<!-- Modal header -->
-			<div class="flex justify-between items-center mb-4 sm:mb-5 dark:border-gray-600">
+			<div class="flex justify-between items-center mb-4 sm:mb-4 dark:border-gray-600">
 				<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Edit workspace</h3>
 				<button
 					type="button"
@@ -415,7 +415,7 @@
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
 					Are you sure you want to archive this module?
 				</h3>
-				<p class="mb-5 font-xs text-gray-500">
+				<p class="mb-4 font-xs text-gray-500">
 					All the information regarding this module will be hidden and its content will also be
 					hidden. An archived module can be restore any time.
 				</p>

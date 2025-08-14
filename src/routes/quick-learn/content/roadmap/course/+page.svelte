@@ -423,7 +423,7 @@
 		<div class="relative p-4 bg-white rounded-lg shadow dark:bg-gray-800 sm:p-5">
 			<!-- Modal header -->
 			<div
-				class="flex justify-between items-center pb-4 mb-4 rounded-t border-b sm:mb-5 dark:border-gray-600">
+				class="flex justify-between items-center pb-4 mb-4 rounded-t border-b sm:mb-4 dark:border-gray-600">
 				<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Create New Course</h3>
 				<button
 					type="button"
@@ -526,7 +526,7 @@
 		<div class="relative p-4 bg-white rounded-lg shadow dark:bg-gray-800 sm:p-5">
 			<!-- Modal header -->
 			<div
-				class="flex justify-between items-center pb-4 mb-4 rounded-t border-b sm:mb-5 dark:border-gray-600">
+				class="flex justify-between items-center pb-4 mb-4 rounded-t border-b sm:mb-4 dark:border-gray-600">
 				<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Edit Course</h3>
 				<button
 					type="button"
@@ -661,7 +661,7 @@
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
 					Are you sure you want to archive this course?
 				</h3>
-				<p class="mb-5 font-xs text-gray-500">
+				<p class="mb-4 font-xs text-gray-500">
 					When this course is archived, all lessons under this are archived. Additionally, other
 					users can not see this course and its lessons even if it was assigned to them.
 				</p>

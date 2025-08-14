@@ -460,7 +460,7 @@
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
 					Are you sure you want to re-activate this user?
 				</h3>
-				<p class="mb-5 font-xs text-gray-500">
+				<p class="mb-4 font-xs text-gray-500">
 					When reactivated, this user will be able to access the platform and past history will be
 					restored as well.
 				</p>
@@ -912,7 +912,7 @@
 		<!-- Modal content -->
 		<div class="relative rounded-lg bg-white p-4 shadow dark:bg-gray-800 sm:p-5">
 			<!-- Modal header -->
-			<div class="mb-4 flex items-center justify-between rounded-t dark:border-gray-700 sm:mb-5">
+			<div class="mb-4 flex items-center justify-between rounded-t dark:border-gray-700 sm:mb-4">
 				<h3 class="text-lg font-semibold text-gray-900 dark:text-white">
 					Aashish Dhawan's Activities
 				</h3>

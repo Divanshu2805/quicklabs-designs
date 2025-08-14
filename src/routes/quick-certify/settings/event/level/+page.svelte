@@ -20,7 +20,7 @@
 				</p>
 
 				<form class="w-full mt-6">
-					<div class="mb-5 mt-6">
+					<div class="mb-4 mt-6">
 						<label for="email" class="form-input-label">Add New Event Level</label>
 						<input
 							type="email"

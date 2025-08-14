@@ -210,7 +210,7 @@
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
 					Are you sure you want to delete this user?
 				</h3>
-				<p class="mb-5 font-xs text-gray-500">
+				<p class="mb-4 font-xs text-gray-500">
 					All the information regarding this user will be lost. If this user has created some
 					content, it will be assigned to the super admin.
 				</p>
@@ -273,7 +273,7 @@
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
 					Are you sure you want to activate this user?
 				</h3>
-				<p class="mb-5 font-xs text-gray-500">
+				<p class="mb-4 font-xs text-gray-500">
 					Once this user is activated, they will be able to access the system and perform actions
 					based on their roles and permissions.
 				</p>

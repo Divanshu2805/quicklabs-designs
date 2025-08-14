@@ -20,7 +20,7 @@
 				</p>
 
 				<form class="w-full mt-6">
-					<div class="mb-5 mt-6">
+					<div class="mb-4 mt-6">
 						<label for="email" class="form-input-label">Add New Event Format</label>
 						<input
 							type="email"
@@ -37,8 +37,8 @@
 						<thead
 							class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
 							<tr>
-								<th scope="col" class="px-6 py-3 w-full">Event Format</th>
-								<th scope="col" class="px-6 py-3"> Action </th>
+								<th scope="col" class="px-6 py-4 w-full">Event Format</th>
+								<th scope="col" class="px-6 py-4"> Action </th>
 							</tr>
 						</thead>
 						<tbody>

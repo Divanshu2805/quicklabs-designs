@@ -327,7 +327,7 @@
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
 					Are you sure you want to remove this roadmap?
 				</h3>
-				<p class="mb-5 font-xs text-gray-500">
+				<p class="mb-4 font-xs text-gray-500">
 					When this roadmaps is removed for this user, this user will not be able to access this
 					roadmap, its courses and lessons. Also all completion history of this roadmap will be
 					lost.

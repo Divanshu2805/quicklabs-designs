@@ -63,7 +63,7 @@
 						</div>
 					</div>
 
-					<div class="mb-5 mt-6">
+					<div class="mb-4 mt-6">
 						<label for="email" class="form-input-label">Team Name</label>
 						<input
 							type="email"
@@ -72,7 +72,7 @@
 							value="Quick Connect"
 							required />
 					</div>
-					<div class="mb-5">
+					<div class="mb-4">
 						<label
 							for="user-permissions"
 							class="inline-flex items-center mb-2 text-sm font-medium text-gray-900 dark:text-white">

@@ -210,7 +210,7 @@
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
 					Are you sure you want to delete this course?
 				</h3>
-				<p class="mb-5 font-xs text-gray-500">
+				<p class="mb-4 font-xs text-gray-500">
 					All the information regarding this course will be lost. Users will not be able to see it,
 					if they made any progress on it in past, that information will also be lost. This action
 					is not reversible.
@@ -274,7 +274,7 @@
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
 					Are you sure you want to restore this course?
 				</h3>
-				<p class="mb-5 font-xs text-gray-500">
+				<p class="mb-4 font-xs text-gray-500">
 					Once this course is activated, it will be visible to all the users and they will be able
 					to access it. If they made some progress on it in past, that information will also be
 					restored.

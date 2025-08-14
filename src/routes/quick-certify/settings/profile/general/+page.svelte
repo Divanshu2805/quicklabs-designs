@@ -26,7 +26,7 @@
 						</div>
 					</div>
 
-					<div class="mb-5 mt-6">
+					<div class="mb-4 mt-6">
 						<label for="email" class="form-input-label">First Name</label>
 						<input
 							type="email"
@@ -36,7 +36,7 @@
 							required />
 					</div>
 
-					<div class="mb-5 mt-6">
+					<div class="mb-4 mt-6">
 						<label for="email" class="form-input-label">Last Name</label>
 						<input
 							type="email"
@@ -46,7 +46,7 @@
 							required />
 					</div>
 
-					<div class="mb-5">
+					<div class="mb-4">
 						<label for="password" class="form-input-label">Email</label>
 						<input
 							type="password"

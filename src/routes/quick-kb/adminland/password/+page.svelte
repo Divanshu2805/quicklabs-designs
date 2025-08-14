@@ -14,7 +14,7 @@
 				<p class="text-gray-500 dark:text-gray-400 text-sm">Please change your password.</p>
 
 				<form class="w-full mt-6">
-					<div class="mb-5 mt-6">
+					<div class="mb-4 mt-6">
 						<label for="email" class="form-input-label">Old Password or recovery code</label>
 						<input
 							type="email"
@@ -23,7 +23,7 @@
 							placeholder="••••••••"
 							required />
 					</div>
-					<div class="mb-5">
+					<div class="mb-4">
 						<label for="email" class="form-input-label">New Password</label>
 						<input
 							type="email"
@@ -33,7 +33,7 @@
 							required />
 					</div>
 
-					<div class="mb-5">
+					<div class="mb-4">
 						<label for="password" class="form-input-label">Confirm password</label>
 						<input
 							type="password"

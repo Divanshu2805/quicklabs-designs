@@ -208,7 +208,7 @@
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
 					Are you sure you want to delete this workspace?
 				</h3>
-				<p class="mb-5 font-xs text-gray-500">
+				<p class="mb-4 font-xs text-gray-500">
 					All the information regarding this workspace will be lost and its content will also be
 					lost. This is not reversible.
 				</p>
@@ -272,7 +272,7 @@
 				<h3 class="text-lg font-bold text-gray-700 dark:text-gray-400">
 					Are you sure you want to restore this workspace?
 				</h3>
-				<p class="mb-5 font-xs text-gray-500">
+				<p class="mb-4 font-xs text-gray-500">
 					Once this workspace is restored, its content will also be restored and users will be able
 					to see it.
 				</p>
