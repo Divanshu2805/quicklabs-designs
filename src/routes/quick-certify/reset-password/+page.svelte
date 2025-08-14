@@ -12,7 +12,7 @@
 		<div
 			class="w-full p-6 bg-white rounded-sm shadow dark:border md:mt-0 sm:max-w-md dark:bg-gray-800 dark:border-gray-700 sm:p-8">
 			<h2 class="h1">Set a new password</h2>
-			<form class="mt-4 space-y-4 lg:mt-5 md:space-y-5" action="/quick-certify/login">
+			<form class="mt-4 space-y-4 lg:mt-5 md:space-y-4" action="/quick-certify/login">
 				<div>
 					<label for="password" class="form-input-label">New Password</label>
 					<input
