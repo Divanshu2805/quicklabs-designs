@@ -59,8 +59,8 @@
 					Add more details about the organisation or the certificate issuer
 				</p>
 
-				<form class="w-full mt-4">
-					<div class="mb-4 mt-4">
+				<form class="w-full mt-4 space-y-4">
+					<div class="">
 						<label for="email" class="form-input-label">Issuer or Organisation Name </label>
 						<input id="name" class="form-input-field" placeholder="Issuer Name" required />
 					</div>
@@ -80,7 +80,7 @@
 							placeholder="Write more description here..."></textarea>
 					</div>
 
-					<div class="mb-4 mt-4">
+					<div class="">
 						<div class="flex items-center space-x-1 mb-2">
 							<label for="password" class="block text-sm font-medium text-gray-900 dark:text-white"
 								>Support Email</label>
@@ -95,7 +95,7 @@
 							placeholder="johndoe@gmail.com"
 							required />
 					</div>
-					<div class="mb-4 mt-4">
+					<div class="">
 						<label for="email" class="form-input-label">Slogan </label>
 						<input
 							id="name"
@@ -103,7 +103,7 @@
 							placeholder="Issuer slogan or tagline"
 							required />
 					</div>
-					<div class="mb-4 mt-4">
+					<div class="">
 						<div class="flex items-center space-x-1 mb-2">
 							<label for="email" class="block text-sm font-medium text-gray-900 dark:text-white"
 								>LinkedIn Company ID

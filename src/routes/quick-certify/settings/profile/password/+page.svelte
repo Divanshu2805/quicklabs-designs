@@ -16,8 +16,8 @@
 				<h1 class="form-title">Change Password</h1>
 				<p class="form-subtitle">Setup a new password for your account</p>
 
-				<form class="w-full mt-6">
-					<div class="mb-4 mt-6">
+				<form class="w-full mt-6 space-y-4">
+					<div class="">
 						<label for="email" class="form-input-label">Old Password</label>
 						<input
 							type="email"
@@ -26,7 +26,7 @@
 							placeholder="••••••••"
 							required />
 					</div>
-					<div class="mb-4">
+					<div class="">
 						<label for="email" class="form-input-label">New Password</label>
 						<input
 							type="email"
@@ -36,7 +36,7 @@
 							required />
 					</div>
 
-					<div class="mb-4">
+					<div class="">
 						<label for="password" class="form-input-label">Confirm password</label>
 						<input
 							type="password"

@@ -15,7 +15,7 @@
 				<h1 class="form-title">Profile Settings</h1>
 				<p class="form-subtitle">Change your personal profile settings</p>
 
-				<form class="w-full mt-6">
+				<form class="w-full mt-6 space-y-4">
 					<div class="sm:col-span-2">
 						<label class="form-input-label" for="file_input">Upload avatar</label>
 						<div class="items-center w-full sm:flex">
@@ -26,7 +26,7 @@
 						</div>
 					</div>
 
-					<div class="mb-4 mt-6">
+					<div class="">
 						<label for="email" class="form-input-label">First Name</label>
 						<input
 							type="email"
@@ -36,7 +36,7 @@
 							required />
 					</div>
 
-					<div class="mb-4 mt-6">
+					<div class="">
 						<label for="email" class="form-input-label">Last Name</label>
 						<input
 							type="email"

@@ -119,6 +119,10 @@
     .unselected-tab {
         @apply block py-3 px-4 text-gray-500 dark:text-gray-400 hover:text-primary-600 hover:border-b-2 hover:border-primary-600;
     }
+
+    .text-tooltip {
+        @apply max-w-sm absolute z-10 inline-block px-2 py-1 text-xs font-normal text-white transition-opacity duration-300 bg-gray-900 rounded-sm shadow-sm dark:bg-gray-700 opacity-0 invisible
+    }
 }
 
 .line-clamp {

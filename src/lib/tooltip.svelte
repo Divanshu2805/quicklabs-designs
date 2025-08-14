@@ -20,7 +20,7 @@
 <div
 	{id}
 	role="tooltip"
-	class="max-w-sm absolute z-10 inline-block px-2 py-1 text-xs font-normal text-white transition-opacity duration-300 bg-gray-900 rounded-sm shadow-sm tooltip dark:bg-gray-700 opacity-0 invisible"
+	class="text-tooltip tooltip"
 	style="position: absolute; inset: auto auto 0px 0px; margin: 0px; transform: translate3d(66px, -1015px, 0px);"
 	data-popper-placement="top">
 	{tooltipText}

@@ -17,8 +17,8 @@
 					users connect with you.
 				</p>
 
-				<form class="w-full mt-4">
-					<div class="mb-4 mt-4">
+				<form class="w-full mt-4 space-y-4">
+					<div class="">
 						<label for="email" class="form-input-label">LinkedIn Profile Link </label>
 						<div class="flex">
 							<span
@@ -47,7 +47,7 @@
 						</div>
 					</div>
 
-					<div class="mb-4 mt-4">
+					<div class="">
 						<label for="email" class="form-input-label">Facebook Profile Link </label>
 						<div class="flex">
 							<span
@@ -71,7 +71,7 @@
 								placeholder="https://www.facebook.com/your-id/" />
 						</div>
 					</div>
-					<div class="mb-4 mt-4">
+					<div class="">
 						<label for="email" class="form-input-label">Twitter/X Profile Link </label>
 						<div class="flex">
 							<span
@@ -95,7 +95,7 @@
 								placeholder="https://x.com/your-id/" />
 						</div>
 					</div>
-					<div class="mb-4 mt-4">
+					<div class="">
 						<label for="email" class="form-input-label">Website Link </label>
 						<div class="flex">
 							<span
