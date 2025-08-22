@@ -4,6 +4,12 @@
 		{ title: 'Change password', link: '/quick-test/settings/password' }
 	];
 
+	let archive = [
+		{ title: 'Archived Projects', link: '/quick-test/archive/projects' },
+		{ title: 'Archived Users', link: '/quick-test/archive/users' }
+	];
+
+
 	let projects = [
 		{ title: 'Projects Home', link: '/quick-test/projects' },
 		{ title: 'Milestones', link: '/quick-test/projects/1/milestones' },
@@ -25,7 +31,8 @@
 		{ title: 'Onboarding', screens: login },
 		{ title: 'Settings', screens: settings },
 		{ title: 'Projects', screens: projects },
-		{ title: 'Dashboard', screens: dashboard }
+		{ title: 'Dashboard', screens: dashboard },
+		{ title: 'Archive', screens: archive }
 	];
 </script>
 
