@@ -28,23 +28,23 @@
 					<a href="/quick-release">
 						<img
 							class="block h-8 w-auto lg:hidden"
-							src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+				src="/quick-test/logo.svg"
 							alt="Your Company" />
 					</a>
 					<a href="/quick-release">
 						<img
 							class="hidden h-8 w-auto lg:block"
-							src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+				src="/quick-test/logo.svg"
 							alt="Your Company" />
 					</a>
 				</div>
 				<div class="hidden lg:ml-6 lg:block">
-					<div class="flex space-x-4">
+					<div class="flex space-x-2">
 						<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 						<h1 class="text-white font-extrabold font-mono py-2">Quick Connect</h1>
 						<a
 							href="/quick-release/changelog"
-							class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+							class="selected-nav"
 							>Change Log</a>
 					</div>
 				</div>
