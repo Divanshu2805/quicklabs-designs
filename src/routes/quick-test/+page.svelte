@@ -9,6 +9,12 @@
 		{ title: 'Archived Users', link: '/quick-test/archive/users' }
 	];
 
+	let account = [
+		{ title: 'Payments', link: '/quick-test/settings/accounts/payments' },
+		{ title: 'Billing', link: '/quick-test/settings/accounts/billing' },
+		{ title: 'Users', link: '/quick-test/settings/accounts/users' },
+		{ title: 'Integration', link: '/quick-test/settings/accounts/integration' }
+	];
 
 	let projects = [
 		{ title: 'Projects Home', link: '/quick-test/projects' },
@@ -32,7 +38,8 @@
 		{ title: 'Settings', screens: settings },
 		{ title: 'Projects', screens: projects },
 		{ title: 'Dashboard', screens: dashboard },
-		{ title: 'Archive', screens: archive }
+		{ title: 'Archive', screens: archive },
+		{ title: 'Account', screens: account }
 	];
 </script>
 
