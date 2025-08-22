@@ -1,7 +1,7 @@
 <nav class="space-y-1">
 	<a
 		href="/quick-certify/settings/profile/general"
-		class="bg-gray-200 text-gray-900 hover:bg-gray-200 rounded px-3 py-2 flex items-center text-sm font-medium">
+		class="selected-sidebar-nav">
 		<!-- Heroicon name: outline/user-circle -->
 		<svg
 			class="w-6 h-6 text-gray-800 dark:text-white"
@@ -20,7 +20,7 @@
 	</a>
 	<a
 		href="/quick-certify/settings/profile/password"
-		class="text-gray-900 hover:text-gray-900 hover:bg-gray-50 rounded px-3 py-2 flex items-center text-sm font-medium">
+		class="sidebar-nav">
 		<!-- Heroicon name: outline/user-circle -->
 		<svg
 			class="w-6 h-6 text-gray-800 dark:text-white"
@@ -39,7 +39,7 @@
 	</a>
 	<a
 		href="/quick-certify/settings/profile/preferences"
-		class="text-gray-900 hover:text-gray-900 hover:bg-gray-50 rounded px-3 py-2 flex items-center text-sm font-medium">
+		class="sidebar-nav">
 		<!-- Heroicon name: outline/user-circle -->
 		<svg
 			class="w-6 h-6 text-gray-800 dark:text-white"

@@ -24,30 +24,30 @@
 						<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 						<a
 							href="/quick-certify/team"
-							class="rounded-sm px-3 py-2 text-sm font-medium text-white bg-gray-500">Dashboard</a>
+							class="selected-nav">Dashboard</a>
 						<a
 							href="/quick-certify/member/my-learning-paths"
-							class="rounded-sm px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+							class="unselected-nav"
 							>Events</a>
 						<a
 							href="/quick-certify/content"
-							class="rounded-sm px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+							class="unselected-nav"
 							>Credentials</a>
 						<a
 							href="/quick-certify/approvals"
-							class="rounded-sm px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+							class="unselected-nav"
 							>Designs</a>
 						<a
 							href="/quick-certify/approvals"
-							class="rounded-sm px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+							class="unselected-nav"
 							>Emails</a>
 						<a
 							href="/quick-certify/approvals"
-							class="rounded-sm px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+							class="unselected-nav"
 							>Analytics</a>
 						<a
 							href="/quick-certify/approvals"
-							class="rounded-sm px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+							class="unselected-nav"
 							>Integrations</a>
 					</div>
 				</div>

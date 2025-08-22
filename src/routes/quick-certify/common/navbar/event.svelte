@@ -2,7 +2,7 @@
 	<nav class="space-y-1">
 		<a
 			href="/quick-certify/settings/event/type"
-			class="bg-gray-200 text-gray-900 hover:bg-gray-200 rounded px-3 py-2 flex items-center text-sm font-medium">
+			class="selected-sidebar-nav">
 			<!-- Heroicon name: outline/user-circle -->
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@
 		</a>
 		<a
 			href="/quick-certify/settings/event/level"
-			class="text-gray-900 hover:text-gray-900 hover:bg-gray-50 rounded px-3 py-2 flex items-center text-sm font-medium">
+			class="sidebar-nav">
 			<!-- Heroicon name: outline/user-circle -->
 
 			<svg
@@ -41,7 +41,7 @@
 		</a>
 		<a
 			href="/quick-certify/settings/event/format"
-			class="text-gray-900 hover:text-gray-900 hover:bg-gray-50 rounded px-3 py-2 flex items-center text-sm font-medium">
+			class="sidebar-nav">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"

@@ -2,7 +2,7 @@
 	<nav class="space-y-1">
 		<a
 			href="/quick-certify/settings/account/general-information"
-			class="bg-gray-200 text-gray-900 hover:bg-gray-200 rounded px-3 py-2 flex items-center text-sm font-medium">
+			class="selected-sidebar-nav">
 			<!-- Heroicon name: outline/user-circle -->
 			<svg
 				class="w-6 h-6 text-gray-800 dark:text-white"
@@ -21,7 +21,7 @@
 		</a>
 		<a
 			href="/quick-certify/settings/account/social-links"
-			class="text-gray-900 hover:text-gray-900 hover:bg-gray-50 rounded px-3 py-2 flex items-center text-sm font-medium">
+			class="sidebar-nav">
 			<!-- Heroicon name: outline/user-circle -->
 
 			<svg
@@ -41,7 +41,7 @@
 		</a>
 		<a
 			href="/quick-certify/settings/account/branding"
-			class="text-gray-900 hover:text-gray-900 hover:bg-gray-50 rounded px-3 py-2 flex items-center text-sm font-medium">
+			class="sidebar-nav">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				fill="none"
@@ -58,7 +58,7 @@
 		</a>
 		<a
 			href="/quick-certify/settings/account/issuer-portal"
-			class="text-gray-900 hover:text-gray-900 hover:bg-gray-50 rounded px-3 py-2 flex items-center text-sm font-medium">
+			class="sidebar-nav">
 			<!-- Heroicon name: outline/user-circle -->
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@
 		</a>
 		<a
 			href="/quick-certify/settings/account/billing-information"
-			class="text-gray-900 hover:text-gray-900 hover:bg-gray-50 rounded px-3 py-2 flex items-center text-sm font-medium">
+			class="sidebar-nav">
 			<!-- Heroicon name: outline/user-circle -->
 			<svg
 				xmlns="http://www.w3.org/2000/svg"

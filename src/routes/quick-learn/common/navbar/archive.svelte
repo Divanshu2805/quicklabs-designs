@@ -21,7 +21,7 @@
 		</a>
 		<a
 			href="/quick-learn/archive/roadmaps"
-			class="text-gray-900 hover:text-gray-900 hover:bg-gray-50 rounded px-3 py-2 flex items-center text-sm font-medium">
+			class="sidebar-nav">
 			<!-- Heroicon name: outline/user-circle -->
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@
 		</a>
 		<a
 			href="/quick-learn/archive/courses"
-			class="text-gray-900 hover:text-gray-900 hover:bg-gray-50 rounded px-3 py-2 flex items-center text-sm font-medium">
+			class="sidebar-nav">
 			<!-- Heroicon name: outline/user-circle -->
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@
 		</a>
 		<a
 			href="/quick-learn/archive/lessons"
-			class="text-gray-900 hover:text-gray-900 hover:bg-gray-50 rounded px-3 py-2 flex items-center text-sm font-medium">
+			class="sidebar-nav">
 			<!-- Heroicon name: outline/user-circle -->
 			<svg
 				class="w-6 h-6 text-gray-800 dark:text-white"

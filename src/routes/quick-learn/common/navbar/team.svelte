@@ -20,7 +20,7 @@
 	</a>
 	<a
 		href="/quick-learn/settings/team/skills"
-		class="text-gray-900 hover:text-gray-900 hover:bg-gray-50 rounded px-3 py-2 flex items-center text-sm font-medium"
+		class="sidebar-nav"
 		><svg
 			class="w-6 h-6 text-gray-800 dark:text-white"
 			aria-hidden="true"
@@ -37,7 +37,7 @@
 			></svg> <span class="truncate ml-2">Primary Skills</span></a>
 	<a
 		href="/quick-learn/settings/team/roadmap-categories"
-		class="text-gray-900 hover:text-gray-900 hover:bg-gray-50 rounded px-3 py-2 flex items-center text-sm font-medium">
+		class="sidebar-nav">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			fill="none"
@@ -55,7 +55,7 @@
 	</a>
 	<a
 		href="/quick-learn/settings/team/courses-categories"
-		class="text-gray-900 hover:text-gray-900 hover:bg-gray-50 rounded px-3 py-2 flex items-center text-sm font-medium">
+		class="sidebar-nav">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			fill="none"

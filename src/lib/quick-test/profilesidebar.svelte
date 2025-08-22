@@ -2,8 +2,7 @@
     <nav class="flex-none px-4 sm:px-6 lg:px-0">
         <ul role="list" class="flex gap-x-3 gap-y-1 whitespace-nowrap lg:flex-col">
             <li>
-                <!-- Current: "bg-gray-50 text-indigo-600", Default: "text-gray-700 hover:text-indigo-600 hover:bg-gray-50" -->
-                <a href="/quick-test/settings/profile" class="bg-gray-50 text-indigo-600 group flex gap-x-3 rounded-md py-2 pl-2 pr-3 text-sm leading-6 font-semibold">
+                <a href="/quick-test/settings/profile" class="selected-sidebar-nav">
                     <svg
                         class="h-6 w-6 shrink-0 text-indigo-600"
                         fill="none"
@@ -18,7 +17,7 @@
                 </a>
             </li>
             <li>
-                <a href="/quick-test/settings/password" class="text-gray-700 hover:text-indigo-600 hover:bg-gray-50 group flex gap-x-3 rounded-md py-2 pl-2 pr-3 text-sm leading-6 font-semibold">
+                <a href="/quick-test/settings/password" class="sidebar-nav">
                     <svg
                         class="h-6 w-6 shrink-0 text-gray-400 group-hover:text-indigo-600"
                         fill="none"
