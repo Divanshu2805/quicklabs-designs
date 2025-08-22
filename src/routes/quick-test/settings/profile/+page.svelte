@@ -1,101 +1,88 @@
 <script>
-    import Fullnavbar from '$lib/quick-test/fullnavbar.svelte';
-    import ProfileSidebar from '$lib/quick-test/profilesidebar.svelte';
+	import NavBar from '$quick-test/common/navbar/fullnavbar.svelte';
+	import Profilesidebar from '$quick-test/common/navbar/profilesidebar.svelte';
 </script>
-<Fullnavbar/>
-<div class="mx-auto max-w-7xl pt-16 lg:flex lg:gap-x-16 lg:px-8">
-    <ProfileSidebar/>
-    <div class="">
-        <h2 class="text-base font-semibold leading-7 text-gray-900">Personal Information</h2>
-        <p class="mt-1 text-sm leading-6 text-gray-600">Update your personal information.</p>
-        <div class="mt-4 grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-6">
-            <div class="sm:col-span-3">
-                <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">First name</label>
-                <div class="mt-2">
-                    <input
-                        type="text"
-                        name="first-name"
-                        id="first-name"
-                        autocomplete="given-name"
-                        class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                    >
-                </div>
-            </div>
-            <div class="sm:col-span-3">
-                <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">Last name</label>
-                <div class="mt-2">
-                    <input
-                        type="text"
-                        name="last-name"
-                        id="last-name"
-                        autocomplete="family-name"
-                        class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                    >
-                </div>
-            </div>
-            <div class="col-span-full   ">
-                <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
-                <div class="mt-2">
-                    <input
-                        id="email"
-                        name="email"
-                        type="email"
-                        autocomplete="email"
-                        class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                    >
-                </div>
-            </div>
-            <div class="col-span-full   ">
-                <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Organization Name</label>
-                <div class="mt-2">
-                    <input
-                        id="email"
-                        name="email"
-                        type="email"
-                        autocomplete="email"
-                        class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                    >
-                </div>
-            </div>
-            <div class="col-span-full   ">
-                <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Role</label>
-                <div class="mt-2">
-                    <input
-                        id="email"
-                        name="email"
-                        type="email"
-                        autocomplete="email"
-                        class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                    >
-                </div>
-            </div>
-            <div class="col-span-full   ">
-                <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Language</label>
-                <div class="mt-2">
-                    <input
-                        id="email"
-                        name="email"
-                        type="email"
-                        autocomplete="email"
-                        class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                    >
-                </div>
-            </div>
-            <div class="sm:col-span-2 invisible">
-                <label for="postal-code" class="block text-sm font-medium leading-6 text-gray-900">ZIP / Postal code</label>
-                <div class="mt-2">
-                    <input
-                        type="text"
-                        name="postal-code"
-                        id="postal-code"
-                        autocomplete="postal-code"
-                        class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                    >
-                </div>
-            </div>
-        </div>
-        <div class="-mt-14 flex items-center justify-end gap-x-6">
-            <button type="submit" class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Save</button>
-        </div>
-    </div>
-</div>
+
+<NavBar />
+
+<main class="max-w-7xl mx-auto pb-10 lg:py-12 lg:px-8">
+	<div class="lg:grid lg:grid-cols-12 lg:gap-x-5">
+		<aside class="px-2 py-6 sm:px-6 lg:py-0 lg:px-0 lg:col-span-3">
+			<Profilesidebar />
+		</aside>
+		<main class="max-w-xl pb-12 px-4 lg:col-span-6">
+			<div>
+				<h1 class="form-title">Profile Settings</h1>
+				<p class="form-subtitle">Change your personal profile settings</p>
+
+				<form class="w-full mt-6 space-y-4">
+					<div class="sm:col-span-2">
+						<label class="form-input-label" for="file_input">Upload avatar</label>
+						<div class="items-center w-full sm:flex">
+							<img
+								class="w-20 h-20 mb-4 rounded-full sm:mr-4 sm:mb-0"
+								src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/helene-engels.png"
+								alt="Helene avatar" />
+						</div>
+					</div>
+
+					<div class="grid gap-4 sm:grid-cols-2 sm:gap-4">
+						<div>
+							<label for="first-name" class="form-input-label">First Name</label>
+							<input
+								type="text"
+								name="first-name"
+								id="first-name"
+								class="form-input-field"
+								placeholder="First name"
+								required="" />
+						</div>
+						<div>
+							<label for="last-name" class="form-input-label">Last Name</label>
+							<input
+								type="text"
+								name="first-name"
+								id="first-name"
+								class="form-input-field"
+								placeholder="Last name"
+								required="" />
+						</div>
+					</div>
+
+					<div class="mb-4">
+						<label for="password" class="form-input-label">Email</label>
+						<input
+							type="password"
+							id="password"
+							class="form-input-field"
+							placeholder="email@gmail.com"
+							required />
+					</div>
+
+					<div class="mb-4">
+						<label for="password" class="form-input-label">Organization Name</label>
+						<input
+							type="text"
+							id="organization"
+							class="form-input-field"
+							placeholder="Crownstack"
+							required />
+					</div>
+
+					<div>
+						<div class="flex items-center space-x-1 mb-2">
+							<label for="password" class="block text-sm font-medium text-gray-900 dark:text-white"
+								>Select Language</label>
+							
+						</div>
+						<select name="user[role]" id="bucket" class="form-input-field"
+							><option value="data">English</option><option value="recruiter">Spanish</option><option
+								value="interviewer">French</option
+							></select>
+					</div>
+					<button type="submit" class="btn-primary">Save</button>
+				</form>
+			</div>
+		</main>
+	</div>
+</main>

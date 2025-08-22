@@ -1,6 +1,6 @@
 <script>
 	import { goto } from '$app/navigation';
-	import Fullnavbar from '$lib/quick-test/fullnavbar.svelte';
+    import Fullnavbar from '$quick-test/common/navbar/fullnavbar.svelte';
 	let menu = { opened: false, filter: false };
 
 	function toggle() {

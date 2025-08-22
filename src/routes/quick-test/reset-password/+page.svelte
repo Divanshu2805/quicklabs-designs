@@ -5,7 +5,7 @@
 			class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
 			<img
 				class="w-8 h-8 mr-2"
-				src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg"
+				src="/quick-test/logo.svg"
 				alt="logo" />
 			Quick Test
 		</a>
@@ -15,7 +15,7 @@
 				class="h1">
 				Set a new password
 			</h1>
-			<form class="mt-4 space-y-4 lg:mt-5 md:space-y-5" action="#">
+			<form class="mt-4 space-y-4 lg:mt-5 md:space-y-4" action="#">
 				<div>
 					<label for="password" class="form-input-label">New Password</label>
 					<input

@@ -14,7 +14,9 @@ const config = {
       '$quick-release': path.resolve('./src/routes/quick-release'),
       '$quick-learn': path.resolve('./src/routes/quick-learn'),
       '$quick-certify': path.resolve('./src/routes/quick-certify'),
-      '$quick-kb': path.resolve('./src/routes/quick-kb')
+      '$quick-kb': path.resolve('./src/routes/quick-kb'),
+      '$quick-test': path.resolve('./src/routes/quick-test')
+
     },
     // adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.
     // If your environment is not supported or you settled on a specific environment, switch out the adapter.

@@ -28,19 +28,19 @@
 							title="Quick Test Logo"
 							loading="eager" /><span
 							data-cy="Quick Test-label"
-							class="text-white font-medium text-base px-3 hidden lg:block tracking-wider"
+							class="text-white font-extrabold font-mono text-base px-3 hidden lg:block tracking-wider"
 							>Quick Test</span
 						><span class="text-white font-medium px-3 block lg:hidden"></span>
 					</div>
 				</a>
 				<div class="hidden lg:ml-6 lg:block">
-					<div class="flex space-x-4">
+					<div class="flex space-x-2">
 						<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-						<a href="#" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
+						<a href="#" class="selected-nav"
 							>Dashboard</a>
 						<a
 							href="/quick-test/projects"
-							class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+							class="unselected-nav"
 							>Projects</a>
 					</div>
 				</div>
