@@ -23,7 +23,7 @@
 							src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
 							alt="Your Company" />
 					</a>
-					<h1 class="text-gray-600 ml-2 font-extrabold font-mono py-2">Quick Connect</h1>
+					<h1 class="text-gray-600 ml-2 font-extrabold font-mono py-2">Quick Release</h1>
 				</div>
 			</div>
 		</div>

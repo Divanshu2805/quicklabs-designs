@@ -69,7 +69,7 @@
 							type="email"
 							id="email"
 							class="form-input-field"
-							value="Quick Connect"
+							value="Quick Release"
 							required />
 					</div>
 					<div class="mb-4">
@@ -109,7 +109,7 @@
 							type="text"
 							id="error"
 							class="bg-red-50 border border-red-500 text-red-900 placeholder-red-700 text-sm rounded-lg focus:ring-red-500 dark:bg-gray-700 focus:border-red-500 block w-full p-2.5 dark:text-red-500 dark:placeholder-red-500 dark:border-red-500"
-							placeholder="Quick Connect" />
+							placeholder="Quick Release" />
 						<p class="mt-2 text-sm text-red-600 dark:text-red-500">
 							<span class="font-medium">Slug is not unique</span>.
 						</p>

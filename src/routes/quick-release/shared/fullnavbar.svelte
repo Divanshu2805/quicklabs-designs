@@ -41,7 +41,7 @@
 				<div class="hidden lg:ml-6 lg:block">
 					<div class="flex space-x-2">
 						<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-						<h1 class="text-white font-extrabold font-mono py-2">Quick Connect</h1>
+						<h1 class="text-white font-extrabold font-mono py-2">Quick Release</h1>
 						<a
 							href="/quick-release/changelog"
 							class="selected-nav"
@@ -201,7 +201,7 @@
 										<a
 											href="#"
 											class="flex block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-											>Quick Connect
+											>Quick Release
 											<svg
 												xmlns="http://www.w3.org/2000/svg"
 												viewBox="0 0 20 20"
