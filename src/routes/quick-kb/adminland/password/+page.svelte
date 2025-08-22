@@ -10,8 +10,8 @@
 
 		<main class="max-w-xl pb-12 px-4 lg:col-span-6">
 			<div>
-				<h1 class="text-lg font-semibold dark:text-white">Change Password</h1>
-				<p class="text-gray-500 dark:text-gray-400 text-sm">Please change your password.</p>
+				<h1 class="form-title">Change Password</h1>
+				<p class="form-subtitle">Please change your password.</p>
 
 				<form class="w-full mt-6">
 					<div class="mb-4 mt-6">

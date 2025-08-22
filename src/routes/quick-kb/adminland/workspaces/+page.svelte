@@ -100,12 +100,12 @@
 									<td class="table-cell">
 										<div class="flex justify-end">
 											<button
-												class="btn-inline-delete"
+												class="btn-inline-red"
 												data-modal-target="popup-modal-activate"
 												data-modal-toggle="popup-modal-activate"
 												href="/1/employees/426">Restore</button>
 											<button
-												class="btn-inline-delete ml-2"
+												class="btn-inline-red ml-2"
 												data-modal-target="popup-modal"
 												data-modal-toggle="popup-modal"
 												href="/1/employees/426">Delete</button>
@@ -146,12 +146,12 @@
 									<td class="table-cell">
 										<div class="flex justify-end">
 											<button
-												class="btn-inline-delete"
+												class="btn-inline-red"
 												data-modal-target="popup-modal-activate"
 												data-modal-toggle="popup-modal-activate"
 												href="/1/employees/426">Restore</button>
 											<button
-												class="btn-inline-delete ml-2"
+												class="btn-inline-red ml-2"
 												data-modal-target="popup-modal"
 												data-modal-toggle="popup-modal"
 												href="/1/employees/426">Delete</button>

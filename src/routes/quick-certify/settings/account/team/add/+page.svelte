@@ -7,8 +7,8 @@
 	<section class="bg-white dark:bg-gray-900">
 		<div class="py-8 px-4 mx-auto max-w-2xl lg:py-8">
 			<div>
-				<h1 class="text-lg font-semibold dark:text-white">Add New Team Member</h1>
-				<p class="text-gray-500 dark:text-gray-400 text-sm">
+				<h1 class="form-title">Add New Team Member</h1>
+				<p class="form-subtitle">
 					Please fill in details of new team member to send them an invitation to join your team.
 				</p>
 			</div>

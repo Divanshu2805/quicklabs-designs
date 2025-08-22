@@ -10,8 +10,8 @@
 
 		<main class="max-w-xl pb-12 px-4 lg:col-span-6">
 			<div>
-				<h1 class="text-lg font-semibold dark:text-white">Manage Database</h1>
-				<p class="text-gray-500 dark:text-gray-400 text-sm">Import/Export Database</p>
+				<h1 class="form-title">Manage Database</h1>
+				<p class="form-subtitle">Import/Export Database</p>
 
 				<div>
 					<h1 class="text-md font-semibold dark:text-white mt-6">Export Database</h1>

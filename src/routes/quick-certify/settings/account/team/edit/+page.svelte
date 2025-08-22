@@ -8,8 +8,8 @@
 	<section class="bg-white dark:bg-gray-900">
 		<div class="py-8 px-4 mx-auto max-w-2xl lg:py-8">
 			<div>
-				<h1 class="text-lg font-semibold dark:text-white">Edit Team Member</h1>
-				<p class="text-gray-500 dark:text-gray-400 text-sm">
+				<h1 class="form-title">Edit Team Member</h1>
+				<p class="form-subtitle">
 					Please update details to edit team member.
 				</p>
 			</div>

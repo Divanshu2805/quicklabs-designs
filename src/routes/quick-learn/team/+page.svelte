@@ -10,8 +10,8 @@
 				<div
 					class="flex-row items-center justify-between p-4 space-y-3 sm:flex sm:space-y-0 sm:space-x-4">
 					<div>
-						<h1 class="mr-3 text-lg font-semibold dark:text-white">Team</h1>
-						<p class="text-gray-500 dark:text-gray-400 text-sm">
+						<h1 class="mr-3 form-title">Team</h1>
+						<p class="form-subtitle">
 							Manage all your existing <span class="font-bold">4</span> team members or add a new one.
 						</p>
 					</div>
@@ -83,7 +83,7 @@
 						</div>
 					</a>
 					<a
-						class="underline mt-3 mr-4 font-medium text-blue-600 dark:text-blue-500 hover:underline text-sm"
+						class="underline mt-3 mr-4 btn-inline-blue text-sm"
 						>Show All</a>
 				</div>
 			</div>
@@ -105,7 +105,7 @@
 						<tr class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
 							<th
 								scope="row"
-								class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+								class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<a href="team/1" class="ml-2 hover:underline"> Aashish Dhawan </a>
 								</div>
@@ -130,7 +130,7 @@
 							</td>
 							<td class="px-4 py-2"> aashishdhawan-yweir8832khsd@gmail.com </td>
 							<td class="px-4 py-2"> iOS Developer</td>
-							<td class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+							<td class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<div class="w-3 h-3 mr-2 bg-green-500 border rounded-full"></div>
 									Active
@@ -142,7 +142,7 @@
 						<tr class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
 							<th
 								scope="row"
-								class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+								class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<a href="team/1" class="ml-2 hover:underline"> Peter Parker </a>
 								</div>
@@ -167,7 +167,7 @@
 							</td>
 							<td class="px-4 py-2"> spiderman@gmail.com </td>
 							<td class="px-4 py-2"> Web Developer</td>
-							<td class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+							<td class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<div class="w-3 h-3 mr-2 bg-red-500 border rounded-full"></div>
 									Inactive
@@ -179,7 +179,7 @@
 						<tr class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
 							<th
 								scope="row"
-								class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+								class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<a href="team/1" class="ml-2 hover:underline"> Nick Furry </a>
 								</div>
@@ -204,7 +204,7 @@
 							</td>
 							<td class="px-4 py-2"> nick@gmail.com </td>
 							<td class="px-4 py-2"> Project Management</td>
-							<td class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+							<td class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<div class="w-3 h-3 mr-2 bg-green-500 border rounded-full"></div>
 									Active
@@ -216,7 +216,7 @@
 						<tr class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
 							<th
 								scope="row"
-								class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+								class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<a href="team/1" class="ml-2 hover:underline"> Mystique </a>
 								</div>
@@ -241,7 +241,7 @@
 							</td>
 							<td class="px-4 py-2"> jennifer@gmail.com </td>
 							<td class="px-4 py-2"> UI/UX Designer</td>
-							<td class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+							<td class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<div class="w-3 h-3 mr-2 bg-green-500 border rounded-full"></div>
 									Active

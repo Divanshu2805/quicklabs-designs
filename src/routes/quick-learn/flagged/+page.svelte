@@ -10,8 +10,8 @@
 				<div
 					class="flex-row items-center justify-between p-4 space-y-3 sm:flex sm:space-y-0 sm:space-x-4">
 					<div>
-						<h1 class="mr-3 text-lg font-semibold dark:text-white">Flagged Lessons</h1>
-						<p class="text-gray-500 dark:text-gray-400 text-sm">
+						<h1 class="mr-3 form-title">Flagged Lessons</h1>
+						<p class="form-subtitle">
 							Following lessons have been flagged for review by admins.
 						</p>
 					</div>
@@ -35,7 +35,7 @@
 						<tr class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
 							<th
 								scope="row"
-								class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+								class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<a href="content/lesson/editor" class="ml-2 hover:underline">
 										Git Cherry Pick command and its usage
@@ -52,7 +52,7 @@
 						<tr class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
 							<th
 								scope="row"
-								class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+								class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<a href="content/lesson/editor" class="ml-2 hover:underline">
 										Git Cherry Pick command and its usage
@@ -69,7 +69,7 @@
 						<tr class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
 							<th
 								scope="row"
-								class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+								class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<a href="content/lesson/editor" class="ml-2 hover:underline">
 										Git Cherry Pick command and its usage
@@ -85,7 +85,7 @@
 						<tr class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
 							<th
 								scope="row"
-								class="px-4 py-2 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+								class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<a href="content/lesson/editor" class="ml-2 hover:underline">
 										Git Cherry Pick command and its usage

@@ -33,6 +33,9 @@
         @apply text-gray-500 dark:text-gray-400 text-sm
     }
 
+    .form-text-normal {
+        @apply text-gray-700 dark:text-gray-400 text-sm font-normal;
+    }
     /** form components end  */
 
     .btn-primary {
@@ -55,14 +58,13 @@
         @apply bg-white py-2 px-4 inline-flex border border-gray-300 rounded shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 cursor-pointer;
     }
 
-    .btn-inline-edit {
-        @apply text-sm text-gray-400 hover:text-blue-600 cursor-pointer
+    .btn-inline-blue {
+        @apply text-sm font-medium text-primary-600 hover:underline dark:text-primary-500 cursor-pointer
     }
 
-    .btn-inline-delete {
-        @apply text-sm text-gray-400 hover:text-red-600 cursor-pointer
+    .btn-inline-red {
+        @apply font-medium text-red-600 dark:text-red-500 hover:underline cursor-pointer
     }
-
 
     .link {
         @apply text-sm font-medium text-primary-600 hover:underline dark:text-primary-500
