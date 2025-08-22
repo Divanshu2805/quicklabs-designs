@@ -13,7 +13,7 @@
 			class="w-full bg-white rounded-sm shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
 			<div class="p-6 space-y-4 md:space-y-4 sm:p-8">
 				<h1
-					class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+					class="h1">
 					Sign in to your account
 				</h1>
 				<form class="space-y-4 md:space-y-4" action="#">
@@ -44,7 +44,7 @@
 									id="remember"
 									aria-describedby="remember"
 									type="checkbox"
-									class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800"
+									class="checkbox"
 									required="" />
 							</div>
 							<div class="ml-3 text-sm">

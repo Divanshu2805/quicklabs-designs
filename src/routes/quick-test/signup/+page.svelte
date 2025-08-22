@@ -13,7 +13,7 @@
 			class="w-full bg-white rounded-sm shadow dark:border md:mt-0 sm:max-w-lg xl:p-0 dark:bg-gray-800 dark:border-gray-700">
 			<div class="p-6 space-y-4 md:space-y-4 sm:p-8">
 				<h1
-					class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+					class="h1">
 					Create your account
 				</h1>
 				<form class="space-y-4 md:space-y-4" action="#">
@@ -69,7 +69,7 @@
 								name="password"
 								id="password"
 								placeholder="••••••••"
-								class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+								class="form-input-field"
 								required="" />
 						</div>
 						<div>
@@ -79,7 +79,7 @@
 								name="password"
 								id="password"
 								placeholder="••••••••"
-								class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+								class="form-input-field"
 								required="" />
 						</div>
 					</div>
@@ -90,7 +90,7 @@
 								id="terms"
 								aria-describedby="terms"
 								type="checkbox"
-								class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800"
+								class="checkbox"
 								required="" />
 						</div>
 						<div class="ml-3 text-sm">
@@ -108,7 +108,7 @@
 						class="text-sm font-light text-gray-500 dark:text-gray-400 flex justify-center items-center">
 						Already have an account? <a
 							href="/quick-test/login"
-							class="font-medium text-primary-600 hover:underline dark:text-primary-500 ml-2"
+							class="link ml-2"
 							>Login</a>
 					</p>
 				</form>
