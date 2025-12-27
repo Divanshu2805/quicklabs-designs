@@ -1,0 +1,10 @@
+import "clsx";
+import { B as Banner } from "../../../../../chunks/banner.js";
+function _page($$renderer) {
+  $$renderer.push(`<section class="bg-white dark:bg-gray-900">`);
+  Banner($$renderer);
+  $$renderer.push(`<!----> <div class="max-w-3xl px-4 mb-16 mx-auto lg:px-6 sm:py-8 lg:py-8"><nav class="flex" aria-label="Breadcrumb"><ol class="inline-flex justify-self-center space-x-1 md:space-x-2 rtl:space-x-reverse"><li class="inline-flex items-center"><a href="/quick-kb" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600 dark:text-gray-400 dark:hover:text-white hover:underline"><svg class="w-3 h-3 me-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20"><path d="m19.707 9.293-2-2-7-7a1 1 0 0 0-1.414 0l-7 7-2 2a1 1 0 0 0 1.414 1.414L2 10.414V18a2 2 0 0 0 2 2h3a1 1 0 0 0 1-1v-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v4a1 1 0 0 0 1 1h3a2 2 0 0 0 2-2v-7.586l.293.293a1 1 0 0 0 1.414-1.414Z"></path></svg> Home</a></li></ol></nav> <div class="text-left mt-4"><h2 class="text-xl font-extrabold text-gray-900 dark:text-white">Workspaces (6)</h2></div> <div class="max-w-3xl mt-4 flex flex-col"><a href="/quick-kb/compact/modules" class="text-gray-900 dark:text-white hover:underline">Quick Connect</a> <a href="/quick-kb/compact/modules" class="text-gray-900 dark:text-white hover:underline">Quick Test</a> <a href="/quick-kb/compact/modules" class="text-gray-900 dark:text-white hover:underline">Quick Team</a> <a href="/quick-kb/compact/modules" class="text-gray-900 dark:text-white hover:underline">Quick Connect</a> <a href="/quick-kb/compact/modules" class="text-gray-900 dark:text-white hover:underline">Quick Survey</a> <a href="/quick-kb/compact/modules" class="text-gray-900 dark:text-white hover:underline">Quick KB</a></div></div></section>`);
+}
+export {
+  _page as default
+};
