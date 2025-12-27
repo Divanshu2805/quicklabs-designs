@@ -47,8 +47,7 @@
 <div class="mx-auto w-full flex-grow lg:flex">
 	<!-- Left sidebar & main wrapper -->
 	<div class="min-w-0 flex-1 bg-white xl:flex">
-		<div
-			class="border-b border-gray-200 bg-white xl:w-64 xl:flex-shrink-0 xl:border-b-0 xl:border-r xl:border-gray-200">
+		<div class="border-b border-gray-200 bg-white xl:w-64 xl:flex-shrink-0 xl:border-b-0 border-r">
 			<div class="h-full sm:pl-6 lg:pl-8 xl:pl-0">
 				<!-- Start left column area -->
 				<div class="relative">
