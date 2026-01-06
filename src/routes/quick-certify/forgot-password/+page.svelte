@@ -12,7 +12,7 @@
 		<div
 			class="w-full p-6 bg-white rounded-sm shadow dark:border md:mt-0 sm:max-w-md dark:bg-gray-800 dark:border-gray-700 sm:p-8">
 			<h2 class="h1">Forgot Password?</h2>
-			<form class="mt-4 space-y-4 lg:mt-5 md:space-y-5" action="/quick-certify/reset-password">
+			<form class="mt-4 lg:mt-5" action="/quick-certify/reset-password">
 				<div>
 					<label for="email" class="form-input-label">Enter email to recover password </label>
 					<input
@@ -24,8 +24,9 @@
 						required="" />
 				</div>
 
-				<button type="submit" class="w-full btn-primary">Send Reset Password Instructions</button>
-				<p class="text-sm font-light text-gray-500 dark:text-gray-400 text-center">
+				<button type="submit" class="w-full btn-primary mt-4"
+					>Send Reset Password Instructions</button>
+				<p class="text-sm font-light text-gray-500 dark:text-gray-400 text-center mt-2">
 					<a href="/quick-certify/login" class="link">Return Back to Login</a>
 				</p>
 			</form>
