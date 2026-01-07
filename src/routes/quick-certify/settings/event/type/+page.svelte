@@ -19,7 +19,7 @@
 					seminar. You can add new event types, edit existing ones, or delete them.
 				</p>
 
-				<form class="w-full mt-6 space-y-4">
+				<form class="w-full mt-6">
 					<div class="">
 						<label for="email" class="form-input-label">Add New Event Type</label>
 						<input
@@ -29,7 +29,7 @@
 							placeholder="New Event Type"
 							required />
 					</div>
-					<button type="submit" class="btn-primary">Save</button>
+					<button type="submit" class="btn-primary mt-4">Save</button>
 				</form>
 
 				<div class="relative overflow-x-auto mt-8">
@@ -44,34 +44,18 @@
 						<tbody>
 							<tr
 								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
-								<th
-									scope="row"
-									class="px-6 py-4 form-text-normal">
-									Achievent Award
-								</th>
+								<th scope="row" class="px-6 py-4 form-text-normal"> Achievent Award </th>
 								<td class="px-6 py-4 inline-flex">
-									<a href="#" class="btn-inline-blue"
-										>Edit</a>
-									<a
-										href="#"
-										class="ml-2 btn-inline-red"
-										>Delete</a>
+									<a href="#" class="btn-inline-blue">Edit</a>
+									<a href="#" class="ml-2 btn-inline-red">Delete</a>
 								</td>
 							</tr>
 							<tr
 								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700">
-								<th
-									scope="row"
-									class="px-6 py-4 form-text-normal">
-									Certification
-								</th>
+								<th scope="row" class="px-6 py-4 form-text-normal"> Certification </th>
 								<td class="px-6 py-4 inline-flex">
-									<a href="#" class="btn-inline-blue"
-										>Edit</a>
-									<a
-										href="#"
-										class="ml-2 btn-inline-red"
-										>Delete</a>
+									<a href="#" class="btn-inline-blue">Edit</a>
+									<a href="#" class="ml-2 btn-inline-red">Delete</a>
 								</td>
 							</tr>
 							<tr
@@ -93,130 +77,66 @@
 							</tr>
 							<tr
 								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-t">
-								<th
-									scope="row"
-									class="px-6 py-4 form-text-normal">
-									Course
-								</th>
+								<th scope="row" class="px-6 py-4 form-text-normal"> Course </th>
 								<td class="px-6 py-4 inline-flex">
-									<a href="#" class="btn-inline-blue"
-										>Edit</a>
-									<a
-										href="#"
-										class="ml-2 btn-inline-red"
-										>Delete</a>
+									<a href="#" class="btn-inline-blue">Edit</a>
+									<a href="#" class="ml-2 btn-inline-red">Delete</a>
 								</td>
 							</tr>
 							<tr
 								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-t">
-								<th
-									scope="row"
-									class="px-6 py-4 form-text-normal">
-									Memebership
-								</th>
+								<th scope="row" class="px-6 py-4 form-text-normal"> Memebership </th>
 								<td class="px-6 py-4 inline-flex">
-									<a href="#" class="btn-inline-blue"
-										>Edit</a>
-									<a
-										href="#"
-										class="ml-2 btn-inline-red"
-										>Delete</a>
+									<a href="#" class="btn-inline-blue">Edit</a>
+									<a href="#" class="ml-2 btn-inline-red">Delete</a>
 								</td>
 							</tr>
 							<tr
 								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-t">
-								<th
-									scope="row"
-									class="px-6 py-4 form-text-normal">
-									Licence
-								</th>
+								<th scope="row" class="px-6 py-4 form-text-normal"> Licence </th>
 								<td class="px-6 py-4 inline-flex">
-									<a href="#" class="btn-inline-blue"
-										>Edit</a>
-									<a
-										href="#"
-										class="ml-2 btn-inline-red"
-										>Delete</a>
+									<a href="#" class="btn-inline-blue">Edit</a>
+									<a href="#" class="ml-2 btn-inline-red">Delete</a>
 								</td>
 							</tr>
 							<tr
 								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-t">
-								<th
-									scope="row"
-									class="px-6 py-4 form-text-normal">
-									Training
-								</th>
+								<th scope="row" class="px-6 py-4 form-text-normal"> Training </th>
 								<td class="px-6 py-4 inline-flex">
-									<a href="#" class="btn-inline-blue"
-										>Edit</a>
-									<a
-										href="#"
-										class="ml-2 btn-inline-red"
-										>Delete</a>
+									<a href="#" class="btn-inline-blue">Edit</a>
+									<a href="#" class="ml-2 btn-inline-red">Delete</a>
 								</td>
 							</tr>
 							<tr
 								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-t">
-								<th
-									scope="row"
-									class="px-6 py-4 form-text-normal">
-									Webinar
-								</th>
+								<th scope="row" class="px-6 py-4 form-text-normal"> Webinar </th>
 								<td class="px-6 py-4 inline-flex">
-									<a href="#" class="btn-inline-blue"
-										>Edit</a>
-									<a
-										href="#"
-										class="ml-2 btn-inline-red"
-										>Delete</a>
+									<a href="#" class="btn-inline-blue">Edit</a>
+									<a href="#" class="ml-2 btn-inline-red">Delete</a>
 								</td>
 							</tr>
 							<tr
 								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-t">
-								<th
-									scope="row"
-									class="px-6 py-4 form-text-normal">
-									Seminar
-								</th>
+								<th scope="row" class="px-6 py-4 form-text-normal"> Seminar </th>
 								<td class="px-6 py-4 inline-flex">
-									<a href="#" class="btn-inline-blue"
-										>Edit</a>
-									<a
-										href="#"
-										class="ml-2 btn-inline-red"
-										>Delete</a>
+									<a href="#" class="btn-inline-blue">Edit</a>
+									<a href="#" class="ml-2 btn-inline-red">Delete</a>
 								</td>
 							</tr>
 							<tr
 								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-t">
-								<th
-									scope="row"
-									class="px-6 py-4 form-text-normal">
-									Workshop
-								</th>
+								<th scope="row" class="px-6 py-4 form-text-normal"> Workshop </th>
 								<td class="px-6 py-4 inline-flex">
-									<a href="#" class="btn-inline-blue"
-										>Edit</a>
-									<a
-										href="#"
-										class="ml-2 btn-inline-red"
-										>Delete</a>
+									<a href="#" class="btn-inline-blue">Edit</a>
+									<a href="#" class="ml-2 btn-inline-red">Delete</a>
 								</td>
 							</tr>
 							<tr
 								class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-t">
-								<th
-									scope="row"
-									class="px-6 py-4 form-text-normal">
-									Other
-								</th>
+								<th scope="row" class="px-6 py-4 form-text-normal"> Other </th>
 								<td class="px-6 py-4 inline-flex">
-									<a href="#" class="btn-inline-blue"
-										>Edit</a>
-									<a
-										href="#"
-										class="ml-2 btn-inline-red"
-										>Delete</a>
+									<a href="#" class="btn-inline-blue">Edit</a>
+									<a href="#" class="ml-2 btn-inline-red">Delete</a>
 								</td>
 							</tr>
 						</tbody>
