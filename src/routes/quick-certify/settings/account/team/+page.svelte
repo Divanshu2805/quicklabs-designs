@@ -17,16 +17,14 @@
 						</p>
 					</div>
 					<div class="flex space-x-4">
-						<input
-							type="text"
-							id="first_name"
-							class="form-input-field w-64"
-							placeholder="Search members"
-							required />
-
-						<a type="button" href="/quick-certify/settings/account/team/add" class="btn-primary">
-							Add new member
-						</a>
+						<div class="flex space-x-2 items-center w-full">
+							<a
+								type="button"
+								href="/quick-certify/settings/account/team/add"
+								class="btn-primary w-full">
+								Add new member
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -105,9 +103,7 @@
 					</thead>
 					<tbody>
 						<tr class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
-							<th
-								scope="row"
-								class="px-4 py-2 form-text-normal">
+							<th scope="row" class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<a href="team/1" class="ml-2 hover:underline"> Aashish Dhawan </a>
 								</div>
@@ -141,9 +137,7 @@
 							<td class="px-4 py-2">Dec 11, 2024</td>
 						</tr>
 						<tr class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
-							<th
-								scope="row"
-								class="px-4 py-2 form-text-normal">
+							<th scope="row" class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<a href="team/1" class="ml-2 hover:underline"> Peter Parker </a>
 								</div>
@@ -177,9 +171,7 @@
 							<td class="px-4 py-2">Dec 11, 2024</td>
 						</tr>
 						<tr class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
-							<th
-								scope="row"
-								class="px-4 py-2 form-text-normal">
+							<th scope="row" class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<a href="team/1" class="ml-2 hover:underline"> Nick Furry </a>
 								</div>
@@ -213,9 +205,7 @@
 							<td class="px-4 py-2">Dec 11, 2024</td>
 						</tr>
 						<tr class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
-							<th
-								scope="row"
-								class="px-4 py-2 form-text-normal">
+							<th scope="row" class="px-4 py-2 form-text-normal">
 								<div class="flex items-center">
 									<a href="team/1" class="ml-2 hover:underline"> Mystique </a>
 								</div>
