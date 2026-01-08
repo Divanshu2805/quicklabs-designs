@@ -19,8 +19,8 @@
 						><span class="text-white font-medium px-3 block lg:hidden"></span>
 					</div>
 				</a>
-				<div class="hidden lg:ml-6 lg:block">
-					<div class="flex space-x-2">
+				<div class="hidden lg:ml-4 lg:block">
+					<div class="flex space-x-1">
 						<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 						<a href="/quick-certify/team" class="selected-nav">Dashboard</a>
 						<a href="/quick-certify/member/my-learning-paths" class="unselected-nav">Events</a>
