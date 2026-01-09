@@ -1,7 +1,7 @@
 <script>
-	import NavBar from '$quick-certify/common/navbar/admin.svelte';
-	import SkillSettingsNavBar from '$quick-certify/common/navbar/skill.svelte';
-
+	 import NavBar from '$quick-certify/common/navbar/admin.svelte';
+     import SideBar from '$quick-certify/common/navbar/account.svelte';
+ 
 </script>
 
 <NavBar />
@@ -10,7 +10,7 @@
 	<div class="lg:grid lg:grid-cols-12 lg:gap-x-5">
 		<!-- Left Sidebar -->
 		<aside class="px-2 py-6 sm:px-6 lg:py-0 lg:px-0 lg:col-span-3">
-			<SkillSettingsNavBar />
+			<SideBar />
 		</aside>
 
 		<!-- Main Content -->
