@@ -47,12 +47,17 @@
 		{ title: 'Event Formats', link: '/quick-certify/settings/event/format' }
 	];
 
+	let SkillSetting = [
+		{ title:'Skill Types', link: '/quick-certify/settings/skill/skilltype'}
+	];
+
 	let settingWorkflows = [
 		{ title: 'Onboarding', screens: onboarding },
 		{ title: 'Personal Settings', screens: profileSettings },
 		{ title: 'Account Settings', screens: accountSettings },
 		{ title: 'Event Settings', screens: eventSettings },
-		{ title: 'Team', screens: teamSettings }
+		{ title: 'Team', screens: teamSettings },
+		{title: 'skill', screens:SkillSetting }
 	];
 
 	let publicPages = [
