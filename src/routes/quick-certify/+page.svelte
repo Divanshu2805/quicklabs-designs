@@ -33,7 +33,8 @@
 		{ title: 'Social Links', link: '/quick-certify/settings/account/social-links' },
 		{ title: 'Branding', link: '/quick-certify/settings/account/branding' },
 		{ title: 'Issuer Portal', link: '/quick-certify/settings/account/issuer-portal' },
-		{ title: 'Billing Information', link: '/quick-certify/settings/account/billing-information' }
+		{ title: 'Billing Information', link: '/quick-certify/settings/account/billing-information' },
+		{ title:'Skills', link: '/quick-certify/settings/account/skill'}
 	];
 	let teamSettings = [
 		{ title: 'Team', link: '/quick-certify/settings/account/team' },
@@ -47,12 +48,15 @@
 		{ title: 'Event Formats', link: '/quick-certify/settings/event/format' }
 	];
 
+	
+
 	let settingWorkflows = [
 		{ title: 'Onboarding', screens: onboarding },
 		{ title: 'Personal Settings', screens: profileSettings },
 		{ title: 'Account Settings', screens: accountSettings },
 		{ title: 'Event Settings', screens: eventSettings },
-		{ title: 'Team', screens: teamSettings }
+		{ title: 'Team', screens: teamSettings },
+		
 	];
 
 	let publicPages = [
