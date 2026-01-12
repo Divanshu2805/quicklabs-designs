@@ -152,7 +152,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="grid grid-cols-1 gap-4 sm:grid-cols-4 mt-8">
+		<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 mt-8">
+
 			<div
 				class="relative flex items-center space-x-3 rounded-sm border border-gray-300 bg-white px-4 py-3 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400">
 				<div class="shrink-0">
