@@ -57,7 +57,7 @@
 <div class="flex flex-wrap justify-between pt-1 pb-4 border-t border-b dark:border-gray-700 px-4">
 
 	<!-- Left: Filter section -->
-	<div class="flex flex-wrap pt-1 pb-4 dark:border-gray-700 px-4 space-y-3 sm:flex sm:space-y-0 sm:space-x-4">
+	<div class="flex flex-wrap pt-1 pb-3 dark:border-gray-700 px-4 space-y-3 sm:flex sm:space-y-0 sm:space-x-4">
 
 		<div
 			class="items-center hidden mt-3 mr-4 text-sm font-medium text-gray-900 md:flex dark:text-white">
@@ -131,12 +131,12 @@
 							<tr class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
 
 								<!-- Design column -->
-								<td class="px-4 py-2">
+								<td class="p-4">
 									<div class="flex items-center gap-3">
 										<img
 											src={design.image}
 											alt={design.type}
-											class="w-12 h-12 rounded-md bg-gray-100 p-1 object-contain"
+											 class="w-20 md:w-24 max-w-full max-h-full"
 										/>
 
 										<div>
@@ -144,12 +144,19 @@
 												{design.name}
 											</div>
 
+                                            <div class="text-xs text-gray-500 mt-1 flex gap-2">
+												<span class="capitalize bg-primary-100 text-primary-800 px-2 py-0.5 rounded">Created on:
+													{design.date}
+												</span>
+											<span>•</span>
+											</div>
+                                            
 											<div class="text-xs text-gray-500 mt-1 flex gap-2">
 												<span class="capitalize bg-primary-100 text-primary-800 px-2 py-0.5 rounded">
 													{design.type}
 												</span>
 												<span>•</span>
-												<span>{design.date}</span>
+												
 											</div>
 										</div>
 									</div>
@@ -159,22 +166,44 @@
 								<td class="px-4 py-2 text-right">
 								<div class="flex justify-end gap-2">
 	<button
-		class="px-3 py-1.5 text-sm font-medium rounded-md
-			bg-blue-50 text-blue-700 hover:bg-blue-100">
-		Preview
-	</button>
+	title="Preview"
+	class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-md
+		bg-blue-50 text-blue-700 hover:bg-blue-100">
+	<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+			d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+			d="M2.5 12S6.5 5 12 5s9.5 7 9.5 7-4 7-9.5 7-9.5-7-9.5-7z" />
+	</svg>
+	<span>Preview</span>
+</button>
+
 
 	<button
-		class="px-3 py-1.5 text-sm font-medium rounded-md
-			bg-gray-100 text-gray-700 hover:bg-gray-200">
-		Edit
-	</button>
+	title="Edit"
+	class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-md
+		bg-gray-100 text-gray-700 hover:bg-gray-200">
+	<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+			d="M16.5 3.5l4 4L7 21H3v-4L16.5 3.5z" />
+	</svg>
+	<span>Edit</span>
+</button>
 
-	<button
-		class="px-3 py-1.5 text-sm font-medium rounded-md
-			bg-red-50 text-red-700 hover:bg-red-100">
-		Delete
-	</button>
+
+
+<button
+	title="Delete"
+	class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-md
+		bg-red-50 text-red-700 hover:bg-red-100">
+	<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+			d="M6 7h12M9 7V4h6v3M10 11v6M14 11v6M5 7l1 13h12l1-13" />
+	</svg>
+	<span>Delete</span>
+</button>
+
+
 </div>
 
 								</td>
