@@ -51,7 +51,6 @@
 		{ title: 'Onboarding', screens: onboarding },
 		{ title: 'Personal Settings', screens: profileSettings },
 		{ title: 'Account Settings', screens: accountSettings },
-		{ title: 'Event Settings', screens: eventSettings },
 		{ title: 'Team', screens: teamSettings }
 	];
 
@@ -66,7 +65,10 @@
 		{ title: 'Person Detail', link: '/quick-certify/public/person' }
 	];
 
-	let publicWorkflows = [{ title: 'Public', screens: publicPages }];
+	let publicWorkflows = [
+		{ title: 'Public', screens: publicPages },
+		{ title: 'Event Settings', screens: eventSettings }
+	];
 </script>
 
 <!-- 3 column wrapper -->
