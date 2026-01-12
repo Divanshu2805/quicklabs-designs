@@ -48,6 +48,13 @@
 		{ title: 'Event Formats', link: '/quick-certify/settings/event/format' }
 	];
 
+	let Designs = [
+		{ title: 'Design List', link: '/quick-certify/settings/designs'},
+		{ title: 'Add Design', link: '/quick-certify/settings/designs/Add Design' },
+		{ title: 'Edit Design', link: '/quick-certify/settings/designs/edit design' }
+	];
+
+
 	
 
 	let settingWorkflows = [
@@ -56,7 +63,7 @@
 		{ title: 'Account Settings', screens: accountSettings },
 		{ title: 'Event Settings', screens: eventSettings },
 		{ title: 'Team', screens: teamSettings },
-		
+		{ title: 'Designs', screens: Designs }
 	];
 
 	let publicPages = [
