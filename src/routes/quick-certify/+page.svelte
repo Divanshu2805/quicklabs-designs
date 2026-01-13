@@ -50,8 +50,8 @@
 
 	let Designs = [
 		{ title: 'Design List', link: '/quick-certify/settings/designs'},
-		{ title: 'Add Design', link: '/quick-certify/settings/designs/Add Design' },
-		{ title: 'Edit Design', link: '/quick-certify/settings/designs/edit design' }
+		{ title: 'Add Design', link: '/quick-certify/settings/designs/add-design' },
+		{ title: 'Edit Design', link: '/quick-certify/settings/designs/edit-design' }
 	];
 
 

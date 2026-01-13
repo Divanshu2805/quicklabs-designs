@@ -45,11 +45,12 @@
 						<div class="flex space-x-2 items-center w-full">
 							<a
 								type="button"
-								href="/quick-certify/settings/account/team/add"
+								href="/quick-certify/settings/designs/add-design"
 								class="btn-primary w-full">
 								Add New Certificate
 							</a>
 						</div>
+                        
 					</div>
 				</div>
 			</div>
@@ -181,6 +182,8 @@
 
 	<button
 	title="Edit"
+
+  on:click={() => window.location.href = '/quick-certify/settings/designs/edit-design'}
 	class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-md
 		bg-gray-100 text-gray-700 hover:bg-gray-200">
 	<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
