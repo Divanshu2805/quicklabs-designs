@@ -41,7 +41,8 @@
 				Manage certificate and badge designs
 			</p>
 					</div>
-					<div class="flex space-x-4">
+					<!-- <div class="flex space-x-4">
+
 						<div class="flex space-x-2 items-center w-full">
 							<a
 								type="button"
@@ -51,7 +52,42 @@
 							</a>
 						</div>
                         
-					</div>
+					</div> -->
+                    
+<button id="dropdownDefaultButton" data-dropdown-toggle="dropdownId" class="inline-flex items-center justify-cente bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none btn-primary" type="button">
+Add New Design
+  <svg class="w-4 h-4 ms-1.5 -me-0.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/></svg>
+</button>
+
+<!-- Dropdown menu -->
+<div
+  id="dropdownId"
+  class="z-50 hidden w-44 rounded-md border border-gray-200
+         bg-white shadow-lg"
+>
+  <ul class="p-2 text-sm font-medium text-gray-700">
+    <li>
+      <a
+        href="/quick-certify/settings/designs/add-design"
+        class="inline-flex w-full items-center rounded-md p-2
+               hover:bg-gray-100 hover:text-gray-900"
+      >
+        Certificate
+      </a>
+    </li>
+    <li>
+      <a
+        href="/quick-certify/settings/designs/add-design"
+        class="inline-flex w-full items-center rounded-md p-2
+               hover:bg-gray-100 hover:text-gray-900"
+      >
+        Badge
+      </a>
+    </li>
+  </ul>
+</div>
+
+
 				</div>
 			</div>
 
