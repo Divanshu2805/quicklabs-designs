@@ -63,7 +63,8 @@
 		{ title: 'Account Settings', screens: accountSettings },
 		{ title: 'Event Settings', screens: eventSettings },
 		{ title: 'Team', screens: teamSettings },
-		{ title: 'Designs', screens: Designs }
+		{ title: 'Designs', screens: Designs },
+		{ title: 'Team', screens: teamSettings }
 	];
 
 	let publicPages = [
@@ -77,7 +78,10 @@
 		{ title: 'Person Detail', link: '/quick-certify/public/person' }
 	];
 
-	let publicWorkflows = [{ title: 'Public', screens: publicPages }];
+	let publicWorkflows = [
+		{ title: 'Public', screens: publicPages },
+		{ title: 'Event Settings', screens: eventSettings }
+	];
 </script>
 
 <!-- 3 column wrapper -->
