@@ -128,7 +128,7 @@
 
 					<tbody>
 						{#each filteredDesigns as design}
-							<tr class="border-b dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
+							<tr class="border-b dark:border-gray-600 hover:bg-gray-300 dark:hover:bg-gray-700">
 
 								<!-- Design column -->
 								<td class="p-4">
