@@ -48,12 +48,22 @@
 		{ title: 'Event Formats', link: '/quick-certify/settings/event/format' }
 	];
 
+	let Designs = [
+		{ title: 'Design List', link: '/quick-certify/settings/designs'},
+		{ title: 'Add Design', link: '/quick-certify/settings/designs/add-design' },
+		{ title: 'Edit Design', link: '/quick-certify/settings/designs/edit-design' }
+	];
+
+
 	
 
 	let settingWorkflows = [
 		{ title: 'Onboarding', screens: onboarding },
 		{ title: 'Personal Settings', screens: profileSettings },
 		{ title: 'Account Settings', screens: accountSettings },
+		{ title: 'Event Settings', screens: eventSettings },
+		{ title: 'Team', screens: teamSettings },
+		{ title: 'Designs', screens: Designs },
 		{ title: 'Team', screens: teamSettings }
 	];
 
