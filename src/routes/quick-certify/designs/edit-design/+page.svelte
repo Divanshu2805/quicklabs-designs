@@ -9,18 +9,18 @@
 	<main class="max-w-xl pb-12 px-4 lg:col-span-6">
 		<div>
 			<h1 class="form-title">Edit Design</h1>
-			<p class="form-subtitle">Edit certificate or badge design By Updating Name and Image</p>
+			<p class="form-subtitle">Edit certificate or badge design by updating the name and selecting a new image.</p>
 		</div>
 
 		<form class="w-full mt-4 space-y-4">
 			<div class="mb-4">
 				<label for="email" class="form-input-label">Edit Name </label>
-				<input id="name" class="form-input-field" placeholder="Name" required />
+				<input id="name" class="form-input-field" placeholder="" required value= "Crownstack Culture Code"/>
 			</div>
 			<div class="mb-2">
 				<label for="dropzone-file" class="form-input-label">Upload Image</label>
 				<p class="form-input-description -mt-2 mb-2">
-					Upload A4 (11008*800) size Image for certificate or (440*400)for Badge
+					Upload A4 (1123x794 px) size image for certificate or (400x400 px) for badge
 				</p>
 			</div>
 			<div class="flex justify-center items-center w-full">
@@ -51,9 +51,9 @@
 				</label>
 			</div>
 			<div class="flex justify-between items-center mt-4">
-				<button type="submit" class="btn-primary mt-4"> Save Design </button>
+				<button type="submit" class="btn-primary"> Save Design </button>
 
-				<button type="submit" class="btn-secondary mt-4"> Replace Image </button>
+				<button type="submit" class="btn-secondary"> Replace Image </button>
 			</div>
 		</form>
 	</main>
