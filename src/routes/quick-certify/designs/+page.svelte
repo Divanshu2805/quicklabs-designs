@@ -17,6 +17,20 @@
 			type: 'badge',
 			date: '08 Dec 2024',
 			image: '/quick-certify/rashi.png'
+		},
+		{
+			id: 3,
+			name: 'Course Completion Certificate',
+			type: 'certificate',
+			date: '12 Dec 2024',
+			image: '/quick-certify/rashi.png'
+		},
+		{
+			id: 4,
+			name: 'Top Performer Badge',
+			type: 'badge',
+			date: '08 Dec 2024',
+			image: '/quick-certify/rashi.png'
 		}
 	];
 
@@ -33,15 +47,15 @@
 				<div
 					class="flex-row items-center justify-between p-4 space-y-3 sm:flex sm:space-y-0 sm:space-x-4">
 					<div>
-						<h1 class="mr-3 form-title">Designs Library</h1>
-						<p class="form-subtitle">Manage certificate and badge designs</p>
+						<h1 class="mr-3 text-lg font-semibold dark:text-white">Designs Library</h1>
+						<p class="text-gray-500 dark:text-gray-400 text-sm">Manage certificate and badge designs</p>
 					</div>
 					<!-- <div class="flex space-x-4">
 
 						<div class="flex space-x-2 items-center w-full">
 							<a
 								type="button"
-								href="/quick-certify/settings/designs/add-design"
+								href="/quick-certify/designs/add-design"
 								class="btn-primary w-full">
 								Add New Certificate
 							</a>
@@ -52,7 +66,7 @@
 					<button
 						id="dropdownDefaultButton"
 						data-dropdown-toggle="dropdownId"
-						class="inline-flex items-center justify-cente bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none btn-primary"
+						class="btn-primary flex"
 						type="button">
 						Add New Design
 						<svg
@@ -79,7 +93,7 @@
 						<ul class="p-2 text-sm font-medium text-gray-700">
 							<li>
 								<a
-									href="/quick-certify/settings/designs/add-design"
+									href="/quick-certify/designs/add-design"
 									class="inline-flex w-full items-center rounded-md p-2
                hover:bg-gray-100 hover:text-gray-900">
 									Certificate
@@ -87,7 +101,7 @@
 							</li>
 							<li>
 								<a
-									href="/quick-certify/settings/designs/add-design"
+									href="/quick-certify/designs/add-design"
 									class="inline-flex w-full items-center rounded-md p-2
                hover:bg-gray-100 hover:text-gray-900">
 									Badge
@@ -98,64 +112,26 @@
 				</div>
 			</div>
 
-			<div
-				class="flex flex-wrap justify-between pt-1 pb-4 border-t border-b dark:border-gray-700 px-4">
-				<!-- Left: Filter section -->
-				<div
-					class="flex flex-wrap pt-1 pb-3 dark:border-gray-700 px-4 space-y-3 sm:flex sm:space-y-0 sm:space-x-4">
-					<div
-						class="items-center hidden mt-3 mr-4 text-sm font-medium text-gray-900 md:flex dark:text-white">
-						Show records only for:
-					</div>
-
-					<div class="flex flex-wrap">
-						<a href="">
-							<div class="flex items-center mt-3 mr-4">
-								<input
-									id="certificates"
-									type="radio"
-									name="show-only"
-									class="w-4 h-4 bg-gray-100 border-gray-300 text-primary-600 cursor-pointer"
-									checked />
-								<label
-									for="certificates"
-									class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-									Certificates
-								</label>
-							</div>
-						</a>
-
-						<a href="">
-							<div class="flex items-center mt-3 mr-4">
-								<input
-									id="badges"
-									type="radio"
-									name="show-only"
-									class="w-4 h-4 bg-gray-100 border-gray-300 text-primary-600 cursor-pointer" />
-								<label
-									for="badges"
-									class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
-									Badges
-								</label>
-							</div>
-						</a>
-
-						<a
-							class="underline mt-3 mr-4 font-medium text-blue-600 dark:text-blue-500 hover:underline text-sm">
-							Show All
-						</a>
-					</div>
-				</div>
-
-				<!-- Right: Search -->
-				<div class="flex items-center mt-3">
-					<input
-						type="text"
-						placeholder="Search designs..."
-						class="w-64 rounded-md border border-gray-300 px-3 py-2 text-sm
-				focus:outline-none focus:ring-2 focus:ring-primary-500" />
-				</div>
-			</div>
+	<div class="flex flex-wrap pt-1 pb-4 border-t border-b border-gray-200 dark:border-gray-700 px-4 space-y-3 sm:flex sm:space-y-0 sm:space-x-4">
+          <div class="items-center hidden mt-3 mr-4 text-sm font-medium text-gray-900 md:flex dark:text-white">
+            Show records only for:
+          </div>
+          <div class="flex flex-wrap">
+              <a href="">
+                <div class="flex items-center mt-3 mr-4">
+                    <input id="all-products" type="radio" value="" name="show-only" class="radio">
+                  <label for="all-products" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Badges</label>
+                </div>
+              </a>
+              <a href="">
+                <div class="flex items-center mt-3 mr-4">
+                    <input id="all-products" type="radio" value="" name="show-only" class="radio">
+                  <label for="all-products" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Certificates</label>
+                </div>
+              </a>
+			  <a class="underline mt-3 mr-4 font-medium text-blue-600 dark:text-blue-500 hover:underline text-sm" href="">Show All</a>
+          </div>
+        </div>
 
 			<!-- Table -->
 			<div class="overflow-x-auto">
@@ -169,34 +145,32 @@
 
 					<tbody>
 						{#each filteredDesigns as design}
-							<tr class="border-b dark:border-gray-600 hover:bg-gray-300 dark:hover:bg-gray-700">
+							<tr class="border-b border-gray-200 dark:border-gray-600">
 								<!-- Design column -->
 								<td class="p-4">
 									<div class="flex items-center gap-3">
 										<img
 											src={design.image}
 											alt={design.type}
-											class="w-20 md:w-24 max-w-full max-h-full" />
+											class="w-24 md:w-24 max-w-full max-h-full shadow-md" />
 
 										<div>
 											<div class="font-medium text-gray-900 dark:text-white">
 												{design.name}
 											</div>
 
-											<div class="text-xs text-gray-500 mt-1 flex gap-2">
-												<span class="capitalize bg-primary-100 text-primary-800 px-2 py-0.5 rounded"
+											<div class="text-xs text-gray-500 flex gap-2">
+												<span class="capitalize py-0.5 rounded"
 													>Created on:
 													{design.date}
 												</span>
-												<span>•</span>
 											</div>
 
 											<div class="text-xs text-gray-500 mt-1 flex gap-2">
 												<span
-													class="capitalize bg-primary-100 text-primary-800 px-2 py-0.5 rounded">
+													class="capitalize bg-brand-softer border border-brand-subtle text-fg-brand-strong text-xs font-medium px-1.5 py-0.5 rounded">
 													{design.type}
 												</span>
-												<span>•</span>
 											</div>
 										</div>
 									</div>
@@ -207,8 +181,8 @@
 									<div class="flex justify-end gap-2">
 										<button
 											title="Preview"
-											class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-md
-		bg-blue-50 text-blue-700 hover:bg-blue-100">
+											class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-xs
+		bg-blue-50 text-blue-700 hover:bg-blue-100 cursor-pointer">
 											<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 												<path
 													stroke-linecap="round"
@@ -227,9 +201,9 @@
 										<button
 											title="Edit"
 											on:click={() =>
-												(window.location.href = '/quick-certify/settings/designs/edit-design')}
-											class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-md
-		bg-gray-100 text-gray-700 hover:bg-gray-200">
+												(window.location.href = '/quick-certify/designs/edit-design')}
+											class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-xs
+		bg-gray-100 text-gray-700 hover:bg-gray-200 cursor-pointer">
 											<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 												<path
 													stroke-linecap="round"
@@ -242,8 +216,8 @@
 
 										<button
 											title="Delete"
-											class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-md
-		bg-red-50 text-red-700 hover:bg-red-100">
+											class="flex items-center gap-2 px-3 py-1.5 text-sm font-medium rounded-xs
+		bg-red-50 text-red-700 hover:bg-red-100 cursor-pointer">
 											<svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 												<path
 													stroke-linecap="round"
